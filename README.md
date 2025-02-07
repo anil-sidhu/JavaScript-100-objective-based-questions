@@ -1,12 +1,19 @@
 # JavaScript-100-objective-based-questions
 
 
-Which of the following is a correct variable declaration in JavaScript?
+**Which of the following is a correct variable declaration in JavaScript?**
+```js
 a) var myVar;
 b) let myVar;
 c) const myVar = 10;
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: d) All of the above
+</ul>
+</details>
 
 Which of the following is NOT a JavaScript data type?
 a) String
