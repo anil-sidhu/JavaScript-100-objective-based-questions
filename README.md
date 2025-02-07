@@ -542,20 +542,31 @@ Answer: d) Running
 </details>
 
 
-**37.Use of AAwait ?**
-a) async
-b) await
-c) defer
-d) then
-Answer: b) await
+**37. Use of Await keyword ?**
+a) wait for an asynchronous operation to finish before continuing the execution
+b) make promise
+c) atop execution  
+d) all of above
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) wait for an asynchronous operation to finish before continuing the execution
+</ul>
+</details>
 
-DOM Manipulation & Events
-Which method selects an element by ID?
-a) document.getElementByClass()
+
+**38. Which method selects an element by ID?**
+```
+a) document.getElementofId()
 b) document.getElementById()
-c) document.querySelectorAll()
+c) document.selectElementById()
 d) document.selectById()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) document.getElementById()
+</ul>
+</details>
+
 
 What does document.querySelectorAll(".class") return?
 a) A NodeList
