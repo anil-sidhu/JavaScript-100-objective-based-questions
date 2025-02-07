@@ -1,33 +1,49 @@
 # JavaScript-100-objective-based-questions
 
 
-**Which of the following is a correct variable declaration in JavaScript?**
+**Can we connect JavaScript Directly with Actual Database with reason ?**
 ```js
-a) var myVar;
-b) let myVar;
-c) const myVar = 10;
-d) All of the above
+a) Yes;
+b) No;
+c) Sometime;
+d) Some Database
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: d) All of the above
+Answer: b) No
 </ul>
 </details>
 
-Which of the following is NOT a JavaScript data type?
+**Which of the following is NOT a JavaScript data type?**
+```js
 a) String
 b) Boolean
 c) Float
 d) Undefined
-Answer: c) Float
+```
 
-Which symbol is used for single-line comments in JavaScript?
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: c) Float
+</ul>
+</details>
+
+**Which symbol is used for single-line comments in JavaScript?**
+```js
 a) //
 b) /*
 c) #
 d) <!--
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: a) //
+</ul>
+</details>
 
 What will typeof null return?
 a) "null"
