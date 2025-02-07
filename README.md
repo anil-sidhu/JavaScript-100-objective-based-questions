@@ -15,6 +15,7 @@ Answer: b) No
 </ul>
 </details>
 
+
 **2. Which of the following is NOT a JavaScript data type?**
 ```js
 a) String
@@ -30,6 +31,7 @@ Answer: c) Float
 </ul>
 </details>
 
+
 **3. Which symbol is used for single-line comments in JavaScript?**
 ```js
 a) //
@@ -43,6 +45,7 @@ d) <!--
 Answer: a) //
 </ul>
 </details>
+
 
 ** 4. What will typeof null return?**
 ```js
@@ -58,6 +61,7 @@ Answer: b) "object"
 </details>
 
 
+
 **5. How to make immutable object in JavaScript**
 ```js
 a) final var ={name:'Anil'}
@@ -70,6 +74,7 @@ c) There is no way to make immutable object
 Answer: c) var  user={name:'Anil'}; Object.freeze(obj);
 </ul>
 </details>
+
 
 
 **6. Operators & Expressions
@@ -101,6 +106,7 @@ Answer: b) !==
 </details>
 
 
+
 **8. What does !!"false" evaluate to?**
 ```js
 a) true
@@ -115,6 +121,7 @@ Answer: a) true
 </details>
 
 
+
 **9. What is the result of 5 == "5"?**
 ```js
 a) true
@@ -125,6 +132,7 @@ b) false
 Answer: a) true
 </ul>
 </details>
+
 
 
 ** 10. What is the result of type of  "5 " === " 5"? **
@@ -139,20 +147,40 @@ Answer: b) false
 </details>
 
 
-Control Flow & Loops
-Which loop is guaranteed to execute at least once?
+
+** 11. Which loop is guaranteed to execute at least once? **
+```
 a) for loop
 b) while loop
 c) do-while loop
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) do-while loop
+</ul>
+</details>
 
-What will break statement do in a loop?
-a) Exit the loop
-b) Skip the current iteration
-c) Stop the script execution
-d) Throw an error
-Answer: a) Exit the loop
+
+
+**12. Output of this for loop loop**
+```js 
+for(;;) {
+console.log("Loop")
+}
+```
+```js
+a) Infinit Loop 
+b) Loop will not execute
+c) Error
+d) Only Run once 
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) Infinit Loop
+</ul>
+</details>
+
 
 Which keyword is used to skip an iteration in a loop?
 a) break
