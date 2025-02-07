@@ -1,7 +1,7 @@
 # JavaScript-100-objective-based-questions
 
 
-**Can we connect JavaScript Directly with Actual Database with reason ?**
+**1. Can we connect JavaScript Directly with Actual Database with reason ?**
 ```js
 a) Yes;
 b) No;
@@ -15,7 +15,7 @@ Answer: b) No
 </ul>
 </details>
 
-**Which of the following is NOT a JavaScript data type?**
+**2. Which of the following is NOT a JavaScript data type?**
 ```js
 a) String
 b) Boolean
@@ -30,7 +30,7 @@ Answer: c) Float
 </ul>
 </details>
 
-**Which symbol is used for single-line comments in JavaScript?**
+**3. Which symbol is used for single-line comments in JavaScript?**
 ```js
 a) //
 b) /*
@@ -39,57 +39,105 @@ d) <!--
 ```
 
 <details>
-	<summary><b>View Answer</b></summary>
-<ul>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) //
 </ul>
 </details>
 
-What will typeof null return?
+** 4. What will typeof null return?**
+```js
 a) "null"
 b) "object"
 c) "undefined"
 d) "string"
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) "object"
+</ul>
+</details>
 
-Which keyword is used to define a constant in JavaScript?
-a) var
-b) let
-c) const
-d) define
-Answer: c) const
 
-Operators & Expressions
-What will 2 + "2" evaluate to?
+**5. How to make immutable object in JavaScript**
+```js
+a) final var ={name:'Anil'}
+b) const user={name:'Anil'}
+c) var  user={name:'Anil'}; Object.freeze(obj);
+c) There is no way to make immutable object
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) var  user={name:'Anil'}; Object.freeze(obj);
+</ul>
+</details>
+
+
+**6. Operators & Expressions
+What will 2 + "2" evaluate to? **
+```js
 a) 4
 b) "22"
 c) NaN
 d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) "22"
+</ul>
+</details>
 
-Which operator is used for strict equality in JavaScript?
+
+*** 7.Which operator is used for strict equality in JavaScript?***
+```js
 a) ==
-b) ===
+b) !==
 c) =
 d) !=
-Answer: b) ===
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) !==
+</ul>
+</details>
 
-What does !!"false" evaluate to?
+
+**8. What does !!"false" evaluate to?**
+```js
 a) true
 b) false
 c) undefined
 d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) true
+</ul>
+</details>
 
-What is the result of 5 == "5"?
+
+**9. What is the result of 5 == "5"?**
+```js
 a) true
 b) false
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) true
+</ul>
+</details>
 
-What is the result of 5 === "5"?
+
+** 10. What is the result of type of  "5 " === " 5"? **
+```js
 a) true
 b) false
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) false
+</ul>
+</details>
+
 
 Control Flow & Loops
 Which loop is guaranteed to execute at least once?
