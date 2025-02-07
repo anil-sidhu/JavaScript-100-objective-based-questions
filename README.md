@@ -308,139 +308,241 @@ Answer: c) Both a and b
 </details>
 
 
-How do you access a property in an object?
+**21 How do you access a property in an object?**
+```js
 a) obj[property]
 b) obj.property
 c) Both a and b
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Both a and b
+</ul>
+</details>
 
-Which method is used to add a new element at the end of an array?
+**22. Which method is used to add a new element at the end of an array?**
+```js
 a) push()
 b) pop()
 c) shift()
 d) unshift()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) push()
+</ul>
+</details>
 
-What will console.log([1,2,3].length); return?
+
+**23 What will console.log([1,2,3].length); return? **
+```js
 a) 2
 b) 3
 c) 4
 d) undefined
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) 3
+</ul>
+</details>
 
-How do you remove the last element from an array?
+
+**24 How do you remove first 2 element of an array?**
+```js
 a) pop()
 b) shift()
 c) unshift()
-d) slice()
-Answer: a) pop()
+d) splice()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: d) splice()
+</ul>
+</details>
 
 
-
-ES6 Features
-
-Which keyword allows block-scoped variable declarations?
+**25 Which keyword allows block-scoped variable declarations? **
+```js
 a) var
 b) let
 c) const
 d) Both b and c
-Answer: d) Both b and c
 
-Which of the following is true about const variables?
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: d) Both b and c
+</ul>
+</details>
+
+**26 Which of the following is true about const variables?**
+```js
 a) Their values cannot be changed
 b) They cannot be reassigned
 c) They are always immutable
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) They cannot be reassigned
+</ul>
+</details>
 
-What is the output of console.log(typeof([]));?
+
+**27. What is the output of console.log(typeof([]));? **
+```js
 a) "object"
 b) "array"
 c) "undefined"
 d) "null"
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) "object"
+</ul>
+</details>
 
-What is a template literal in JavaScript?
+
+**28 What is a template literal in JavaScript? **
+```js
 a) A type of array
 b) A string enclosed in backticks (` `)
 c) A special function
 d) A new ES6 data type
-Answer: b) A string enclosed in backticks (` `)
+```
 
-What will console.log(..."Hello"); output?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) A string enclosed in backticks (` `)
+</ul>
+</details>
+
+
+**29. What will console.log(..."Hello"); output? **
+```js
 a) "H e l l o"
 b) ["H", "e", "l", "l", "o"]
 c) Syntax Error
 d) undefined
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) "H e l l o"
+</ul>
+</details>
 
-Arrow Functions & Spread/Rest Operators
-How do you define an arrow function?
+
+** 30. How do you define an arrow function? **
+```
 a) const add = (a, b) => a + b;
 b) const add = function(a, b) { return a + b; };
 c) Both a and b
 d) None of the above
-Answer: a) const add = (a, b) => a + b;
+```
 
-What does the spread operator ... do in JavaScript?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) const add = (a, b) => a + b;
+</ul>
+</details>
+
+
+
+**31 What does the spread operator ... do in JavaScript?**
+```js
 a) Combines arrays
 b) Expands iterable elements
-c) Copies objects
-d) All of the above
-Answer: d) All of the above
+C) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: C) All of the above
+</ul>
+</details>
 
-What will console.log([...new Set([1, 2, 2, 3])]); return?
+
+** 32. What will console.log([...new Set([1, 2, 2, 3])]); return? **
+```js
 a) [1, 2, 3]
 b) [1, 2, 2, 3]
 c) Set {1, 2, 3}
 d) {1, 2, 3}
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) [1, 2, 3]
+</ul>
+</details>
 
-Which statement about arrow functions is true?
+
+**33. Which statement about arrow functions is true? **
+```js
 a) They do not bind this
 b) They can be used as constructors
 c) They have a prototype property
 d) They support arguments keyword
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) They do not bind this
+</ul>
+</details>
 
-Which of the following correctly uses the rest operator?
-a) function sum(...nums) { return nums.reduce((a, b) => a + b, 0); }
-b) function sum(nums...) { return nums.reduce((a, b) => a + b, 0); }
-c) function sum([...nums]) { return nums.reduce((a, b) => a + b, 0); }
-d) None of the above
-Answer: a) function sum(...nums) { return nums.reduce((a, b) => a + b, 0); }
 
-Promises & Async/Await
-What is the purpose of JavaScript Promises?
+**34 Output of follow code? **
+```js
+function tryFruits(...fruits)
+{
+console.log(...fruits)
+}
+
+tryFruits('apple','banana','grapes')
+```
+```js
+a) ['apple', 'banana', 'grapes']
+b) {'apple', 'banana', 'grapes'}
+c) 'apple 'banana grapes'
+d) 'apple'
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a)  ['apple', 'banana', 'grapes']
+</ul>
+</details>
+
+
+**35. What is the purpose of JavaScript Promises?**
+```js
 a) Handle synchronous code
 b) Handle asynchronous operations
 c) Block execution until resolved
 d) Replace all callbacks
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) Handle asynchronous operations
+</ul>
+</details>
 
-Which state is NOT valid for a Promise?
+
+**36. Which state is NOT valid for a Promise?**
+```js
 a) Pending
 b) Fulfilled
 c) Rejected
 d) Running
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) Running
+</ul>
+</details>
 
-How do you handle a rejected Promise?
-a) .catch()
-b) .then()
-c) try...catch
-d) Both a and c
-Answer: d) Both a and c
 
-What is the output of Promise.resolve(5).then(console.log);?
-a) 5
-b) Promise { 5 }
-c) undefined
-d) Error
-Answer: a) 5
-
-Which keyword is used to pause an async function execution?
+**37.Use of AAwait ?**
 a) async
 b) await
 c) defer
