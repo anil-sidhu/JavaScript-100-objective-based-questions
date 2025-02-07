@@ -182,70 +182,131 @@ Answer: a) Infinit Loop
 </details>
 
 
-Which keyword is used to skip an iteration in a loop?
-a) break
-b) continue
-c) skip
-d) pass
-Answer: b) continue
-
-What will console.log(typeof NaN); print?
+** 13. What will console.log(typeof NaN); print? **
+```js
 a) "number"
 b) "NaN"
 c) "undefined"
 d) "object"
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) "number"
+</ul>
+</details>
 
-Which statement will correctly check if x is null?
-a) if (x = null)
-b) if (x === null)
-c) if (x == undefined)
-d) if (x === undefined)
-Answer: b) if (x === null)
 
-Functions & Scope
-What will console.log(typeof function(){}); return?
+** 14. Output of below statment **
+```js
+let x=null;
+let y=null;
+console.log(x+y) 
+```
+```js
+a) null
+b) object
+c) 0
+d) undefined
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) 0
+</ul>
+</details>
+
+
+*** 15. What will console.log(typeof function(){}); return? ***
+```js
 a) "function"
 b) "object"
 c) "undefined"
 d) "null"
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) "function"
+</ul>
+</details>
 
-Which keyword is used to define a function?
-a) function
-b) define
-c) def
-d) method
-Answer: a) function
 
-What is the default return value of a function in JavaScript if no return statement is used?
+*** 16. What will console.log(typeof function(){}(); return? ***
+```js
+a) "function"
+b) "object"
+c) "undefined"
+d) "null"
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) "undefined"
+</ul>
+</details>
+
+*** 17. What is the default return value of a function in JavaScript if no return statement is used? ***
+```js
 a) null
 b) undefined
 c) false
 d) 0
-Answer: b) undefined
+```
 
-Which type of function executes immediately after its definition?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) undefined
+</ul>
+</details>
+
+
+** 18. Which type of function executes immediately after its definition? **
+```js
 a) Anonymous function
 b) Named function
 c) IIFE (Immediately Invoked Function Expression)
 d) Arrow function
-Answer: c) IIFE
+```
 
-What will console.log(x); let x = 5; output?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) IIFE
+</ul>
+</details>
+
+
+**19 Outpout of below statment ** 
+```js
+ console.log(x);
+ let x = 5; 
+```
+```js 
 a) 5
 b) undefined
 c) ReferenceError
 d) NaN
-Answer: c) ReferenceError
+```
 
-Objects & Arrays
-How do you create an object in JavaScript?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) ReferenceError
+</ul>
+</details>
+
+
+**20. How do you create an object in JavaScript? **
+```js
 a) let obj = {};
 b) let obj = new Object();
 c) Both a and b
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Both a and b
+</ul>
+</details>
+
 
 How do you access a property in an object?
 a) obj[property]
