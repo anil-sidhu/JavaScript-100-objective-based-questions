@@ -815,156 +815,290 @@ Answer: c) Throw a ReferenceError
 </details>
 
 
-Which method is used to generate a custom error?
+**56. Which method is used to generate a custom error?**
+```js
 a) throw new Error()
 b) console.error()
 c) generateError()
 d) raiseError()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) throw new Error()
+</ul>
+</details>
 
-What will finally do in a try-catch-finally block?
+
+**57. What will finally do in a try-catch-finally block?**
+```js
 a) Execute only if no error occurs
 b) Execute only if an error occurs
 c) Always execute
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Always execute
+</ul>
+</details>
 
-OOP (Object-Oriented Programming) in JavaScript
-Which keyword is used to create a class in JavaScript?
+
+**58. OOP (Object-Oriented Programming) in JavaScript
+Which keyword is used to create a class in JavaScript?**
+```js
 a) class
 b) function
-c) prototype
-d) object
-Answer: a) class
+c) Class
+d) new Class
 
-What is the purpose of the constructor method in a class?
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) class
+</ul>
+</details>
+
+**59. What is the purpose of the constructor method in a class?**
+```js
 a) To create private variables
 b) To initialize object properties
 c) To call another class
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) To initialize object properties
+</ul>
+</details>
 
-Which keyword is used for inheritance in JavaScript?
+
+
+**60. Which keyword is used for inheritance in JavaScript?**
+```js
 a) implements
 b) extends
 c) inherits
 d) prototype
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) extends
+</ul>
+</details>
 
-Which method in a class is used to call the parent class constructor?
+
+
+**61. Which method in a class is used to call the parent class constructor?**
+```js
 a) parent()
 b) super()
 c) this()
 d) constructor()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) super()
+</ul>
+</details>
 
-Which statement about JavaScript classes is true?
+
+**62 Which statement about JavaScript classes is true?**
+```js
 a) They support multiple inheritance
 b) They are syntactic sugar over prototypes
 c) They can be redeclared
 d) They do not support inheritance
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) They are syntactic sugar over prototypes
+</ul>
+</details>
 
-Web APIs & Asynchronous JavaScript
+
+**63 Web APIs & Asynchronous JavaScript**
+```js
 Which API is used for making HTTP requests in JavaScript?
 a) XMLHttpRequest
 b) Fetch API
 c) Axios
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) All of the above
+</ul>
+</details>
 
-Which method sends a GET request using Fetch API?
+
+**64. Which method sends a GET request using Fetch API?** 
+```js
 a) fetch(url)
 b) fetch(url, { method: 'GET' })
 c) Both a and b
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Both a and b
+</ul>
+</details>
 
-What does navigator.geolocation.getCurrentPosition() do?
+
+**65. What does navigator.geolocation.getCurrentPosition() do?**
+```js
 a) Gets user’s IP address
 b) Gets user’s location
 c) Opens a Google Maps page
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) Gets user’s location
+</ul>
+</details>
 
-Which storage API stores data persistently?
+
+**66. Which storage API stores data persistently?**
+```js
 a) localStorage
 b) sessionStorage
 c) cookies
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) localStorage
+</ul>
+</details>
 
-How can you set an interval in JavaScript?
+
+**67. How can you set an interval in JavaScript?**
+```js
 a) setTimeout()
 b) setInterval()
 c) setRepeat()
-d) repeatInterval()
+d) Interval()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) setInterval()
+</ul>
+</details>
 
-Miscellaneous
-Which method removes an element from an array?
+
+
+**68 Which method removes an element from an array?**
+```js
 a) splice()
 b) slice()
 c) remove()
 d) delete()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) splice()
+</ul>
+</details>
 
-What does typeof NaN return?
-a) "NaN"
-b) "undefined"
-c) "number"
-d) "object"
-Answer: c) "number"
 
-Which JavaScript engine is used in Google Chrome?
+**69. Which JavaScript engine is used in Google Chrome?**
+```js
 a) SpiderMonkey
 b) V8
 c) Chakra
 d) Nitro
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) V8
+</ul>
+</details>
 
-Which method converts a string into a number?
+**70. Which method converts a string into a number?**
+```js
 a) parseInt()
 b) Number()
 c) + (unary plus)
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) All of the above
+</ul>
+</details>
 
-Which function generates a random number between 0 and 1?
+
+** 71. Which function generates a random number between 0 and 1?**
+```js
 a) Math.random()
 b) random()
 c) generateRandom()
 d) Math.rand()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) Math.random()
+</ul>
+</details>
 
 
-Which of the following is a falsy value in JavaScript?
+
+** 72. Which of the following is a falsy value in JavaScript?**
+```js
 a) "false"
 b) "0"
 c) undefined
 d) "undefined"
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) undefined
+</ul>
+</details>
 
-What will console.log([] == false); return?
+
+**73 What will console.log([] == false); return?**
+```js
 a) true
 b) false
 c) undefined
 d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) true
+</ul>
+</details>
 
-Which of the following is NOT a primitive data type in JavaScript?
+
+
+**74. Which of the following is NOT a primitive data type in JavaScript?**
+```js
 a) Number
 b) String
 c) Object
 d) Symbol
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Object
+</ul>
+</details>
 
-How do you deep clone an object in JavaScript?
+**75 How do you deep clone an object in JavaScript?**
+```js
 a) Object.assign({}, obj)
 b) JSON.parse(JSON.stringify(obj))
 c) obj.clone()
 d) obj.copy()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) JSON.parse(JSON.stringify(obj))
+</ul>
+</details>
+
 
 What is the output of console.log(2 + "2" - 1);?
 a) "21"
