@@ -543,10 +543,12 @@ Answer: d) Running
 
 
 **37. Use of Await keyword ?**
+```js
 a) wait for an asynchronous operation to finish before continuing the execution
 b) make promise
 c) atop execution  
 d) all of above
+```
 <details>
 	<summary><b>View Answer</b></summary><ul>
 Answer: a) wait for an asynchronous operation to finish before continuing the execution
@@ -568,62 +570,107 @@ Answer: b) document.getElementById()
 </details>
 
 
-What does document.querySelectorAll(".class") return?
-a) A NodeList
-b) An array
-c) A single element
-d) Undefined
-Answer: a) A NodeList
 
-Which event is triggered when an input field loses focus?
+**39 Which event is triggered when an input field loses focus?**
+```js
 a) click
 b) blur
 c) focus
 d) change
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) blur
+</ul>
+</details>
 
-Which method adds an event listener to an element?
+
+**40. Which method adds an event listener to an element?**
+```js
 a) element.addEventListener()
 b) element.attachEvent()
 c) element.onEvent()
 d) element.setEventListener()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) element.addEventListener()
+</ul>
+</details>
 
-What does event.preventDefault() do?
+
+**41. What does event.preventDefault() do?**
+```js
 a) Stops the default action of an event
 b) Stops event propagation
 c) Prevents event from being attached
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) Stops the default action of an event
+</ul>
+</details>
 
-Miscellaneous
-What is localStorage used for?
+**43. What is localStorage used for?**
+```js
 a) Storing session data
 b) Storing data persistently in the browser
 c) Making API requests
 d) Caching images
-Answer: b) Storing data persistently in the browser
+```
 
-Which method converts a JavaScript object into a JSON string?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) Storing data persistently in the browser
+</ul>
+</details>
+
+
+**44 Which method converts a JavaScript object into a JSON string?**
+```js
 a) JSON.stringify()
 b) JSON.parse()
 c) toJSON()
 d) parseJSON()
-Answer: a) JSON.stringify()
+```
 
-What will console.log(parseInt("10px")) return?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) JSON.stringify()
+</ul>
+</details>
+
+
+**45 What will console.log(parseInt("10px")) return?**
+```js
 a) 10
 b) NaN
 c) "10px"
 d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) 10
+</ul>
+</details>
 
-Which method executes a function repeatedly with a time interval?
+
+**46. Which method executes a function repeatedly with a time interval? **
+```js
 a) setInterval()
 b) setTimeout()
 c) repeat()
 d) setLoop()
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) setInterval()
+</ul>
+</details>
+
+
 
 How do you check if a variable is an array?
 a) typeof x === "array"
