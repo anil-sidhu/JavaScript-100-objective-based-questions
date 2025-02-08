@@ -672,35 +672,54 @@ Answer: a) setInterval()
 
 
 
-How do you check if a variable is an array?
+** 47. How do you check if a variable is an array?**
+```js
 a) typeof x === "array"
 b) x.isArray()
 c) Array.isArray(x)
 d) x instanceof Object
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Array.isArray(x)
+</ul>
+</details>
 
 
 
-Closures & Hoisting
-What is a closure in JavaScript?
+
+** 48. What is a closure in JavaScript?**
+```js
 a) A function inside another function that has access to its parent’s scope
 b) A block of code that runs automatically
 c) A way to define private variables
 d) Both a and c
-Answer: d) Both a and c
+```
 
-Which of the following is true about closures?
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: d) Both a and c
+</ul>
+</details>
+
+
+
+**49. Which of the following is true about closures?**
+```js
 a) Closures have access to their own scope
 b) Closures have access to their parent function's scope
 c) Closures have access to global scope
 d) All of the above
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) All of the above
+</ul>
+</details>
 
-What will this code output?
-
-js
-Copy
-Edit
+**50.What will this code output?**
+```js
 function outer() {
     let count = 0;
     return function inner() {
@@ -711,47 +730,90 @@ function outer() {
 const counter = outer();
 counter();
 counter();
+```
+
+```js
 a) 1 2
 b) 0 1
 c) 1 1
 d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) 1 2
+</ul>
+</details>
 
-Which statement about var and let is true?
+
+**51. Which statement about var and let is true?**
+```js
 a) Both are function-scoped
 b) var is function-scoped, let is block-scoped
 c) Both are block-scoped
 d) var allows redeclaration, let doesn’t
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) var is function-scoped, let is block-scoped
+</ul>
+</details>
 
-What will console.log(x); var x = 10; output?
+
+**52. What will console.log(x); var x = 10; output?**
+```js
 a) 10
 b) undefined
 c) ReferenceError
 d) NaN
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) undefined
+</ul>
+</details>
 
-Error Handling
-Which statement is used for error handling in JavaScript?
+
+** 53. Which statement is used for error handling in JavaScript?**
+```js
 a) try...catch
 b) throw
 c) finally
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) All of the above
+</ul>
+</details>
 
-What happens if an error occurs inside the try block?
+
+**54 What happens if an error occurs inside the try block?**
+```js
 a) The script stops execution
 b) The error is caught in the catch block
 c) The script crashes
 d) The error is ignored
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) The error is caught in the catch block
+</ul>
+</details>
 
-What will console.log(x); inside a try block with no catch or finally do?
+
+**55. What will console.log(x); inside a try block with no catch or finally do?**
+```js
 a) Print undefined
 b) Print null
 c) Throw a ReferenceError
 d) Nothing
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) Throw a ReferenceError
+</ul>
+</details>
+
 
 Which method is used to generate a custom error?
 a) throw new Error()
