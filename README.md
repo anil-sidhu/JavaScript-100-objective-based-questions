@@ -1100,163 +1100,266 @@ Answer: b) JSON.parse(JSON.stringify(obj))
 </details>
 
 
-What is the output of console.log(2 + "2" - 1);?
+**76. What is the output of console.log(2 + "2" - 1);?**
+```js
 a) "21"
 b) 21
 c) "22"
 d) 1
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) 21
+</ul>
+</details>
 
-Functional Programming
-Which method is used to filter elements from an array?
+
+
+**77. Which method is used to filter elements from an array?**
+```js
 a) map()
 b) filter()
 c) reduce()
 d) slice()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) filter()
+</ul>
+</details>
 
-Which function combines array elements into a single value?
+
+
+**78 Which function combines array elements into a single value?**
+```js
 a) reduce()
 b) map()
 c) join()
 d) concat()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) reduce()
+</ul>
+</details>
 
-Which method creates a new array with transformed values?
-a) map()
-b) filter()
-c) reduce()
-d) splice()
-Answer: a) map()
 
-What does the following code return?
 
-js
-Copy
-Edit
+**79. What does the following code return?**
+```js
 console.log([1, 2, 3].map(num => num * 2));
+```
+```js
 a) [2, 4, 6]
 b) [1, 4, 9]
 c) [1, 2, 3]
 d) [2, 3, 4]
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) [2, 4, 6]
+</ul>
+</details>
 
-Which of the following is NOT an immutable operation?
+
+**80. Which of the following is NOT an immutable operation?***
+```js
 a) map()
 b) filter()
 c) splice()
 d) concat()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) splice()
-Event Loop & Asynchronous JavaScript
-What is the event loop in JavaScript?
+</ul>
+</details>
+
+
+**81. What is the event loop in JavaScript?**
+```js
 a) A process that handles function calls
 b) A mechanism that allows async operations
 c) A feature that prevents infinite loops
 d) A method to execute code
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) A mechanism that allows async operations
+</ul>
+</details>
 
-Which of the following executes first in the event loop?
+
+**82. Which of the following executes first in the event loop?**
+```js
 a) setTimeout()
 b) setInterval()
 c) Promise.resolve().then()
 d) console.log()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) console.log()
+</ul>
+</details>
 
-Which queue does setTimeout() use in JavaScript?
+
+
+**83. Which queue does setTimeout() use in JavaScript?**
+```js
 a) Microtask queue
 b) Callback queue
 c) Event loop queue
 d) Execution stack
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) Callback queue
+</ul>
+</details>
 
-What will be the output of this code?
 
-js
-Copy
-Edit
+**84. What will be the output of this code?**
+```js
 console.log("A");
 setTimeout(() => console.log("B"), 0);
 console.log("C");
+```
+```js
 a) A B C
 b) A C B
 c) B A C
 d) C A B
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) A C B
+</ul>
+</details>
 
-Which of the following runs immediately after the main execution?
-a) setTimeout()
-b) setImmediate()
-c) process.nextTick() (Node.js)
-d) requestAnimationFrame()
-Answer: c) process.nextTick() (Node.js)
-Best Practices & Optimization
-Which of the following is a best practice in JavaScript?
+**85. Which of the following is a best practice in JavaScript?**
+```js
 a) Using == instead of ===
 b) Avoiding global variables
 c) Using var instead of let
 d) Nesting loops as deep as possible
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) Avoiding global variables
+</ul>
+</details>
 
-What does "debouncing" do in JavaScript?
+
+**86. What does "debouncing" do in JavaScript?**
+```js
 a) Delays function execution until a pause in events
 b) Executes a function immediately
 c) Runs a function continuously
 d) None of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) Delays function execution until a pause in events
+</ul>
+</details>
 
-What does "throttling" do?
+
+**87. What does "throttling" do?**
+```js
 a) Executes a function only at fixed intervals
 b) Prevents a function from running
 c) Removes unnecessary function calls
 d) Stops event propagation
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) Executes a function only at fixed intervals
+</ul>
+</details>
 
-Which of the following improves JavaScript performance?
+
+**88. Which of the following improves JavaScript performance?**
+```js
 a) Minifying JavaScript files
 b) Using lazy loading
 c) Avoiding unnecessary DOM manipulations
 d) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: d) All of the above
+</ul>
+</details>
 
-What is the best way to check if a variable is null or undefined?
+
+**89. What is the best way to check if a variable is null or undefined?**
+```js
 a) if (x == null)
 b) if (typeof x === "null")
 c) if (x === null || x === undefined)
 d) if (x == undefined)
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: c) if (x === null || x === undefined)
+</ul>
+</details>
 
-Miscellaneous Advanced Questions
-What does document.createElement('div') do?
+
+**90. What does document.createElement('div') do?**
+```js
 a) Creates and appends a div
 b) Creates a div but does not append it
 c) Selects an existing div
 d) Deletes all div elements
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) Creates a div but does not append it
+</ul>
+</details>
 
-Which API is used to create animations in JavaScript?
+
+**91. Which API is used to create animations in JavaScript?**
+```js
 a) WebGL
 b) requestAnimationFrame()
 c) animateCSS()
 d) window.setInterval()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: b) requestAnimationFrame()
+</ul>
+</details>
 
-Which of the following is true for the this keyword in arrow functions?
-a) It binds to the global object
-b) It binds to the enclosing lexical context
-c) It binds to the calling object
-d) It refers to the function itself
-Answer: b) It binds to the enclosing lexical context
 
-Which function removes whitespace from both ends of a string?
+
+**92. Which function removes whitespace from both ends of a string?**
+```js
 a) trim()
 b) slice()
 c) removeSpace()
 d) strip()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) trim()
+</ul>
+</details>
 
-Which method removes the last element from an array?
+
+**93. Which method removes the last element from an array?**
+```js
 a) pop()
 b) shift()
 c) splice()
 d) removeLast()
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
 Answer: a) pop()
+</ul>
+</details>
+
