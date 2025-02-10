@@ -1,7 +1,7 @@
 # JavaScript-100-objective-based-questions
 
 
-**1. Can we connect JavaScript Directly with Actual Database with reason ?**
+**1. Can we connect JavaScript Directly with Actual Database. can you give reason of it ?**
 ```js
 a) Yes;
 b) No;
