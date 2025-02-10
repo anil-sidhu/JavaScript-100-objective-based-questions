@@ -1363,3 +1363,114 @@ Answer: a) pop()
 </ul>
 </details>
 
+**94. What is the output of the following code?**
+```js
+console.log(myFunc);
+function myFunc() {
+    return "Hello";
+}
+
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: c) ƒ myFunc() { return "Hello"; }
+</ul>
+</details>
+
+**95. Which of the following is an example of a higher-order function?**
+```js
+a) A function that returns another function
+b) A function with a return type of void
+c) A function that has a loop inside
+d) A function that only contains if-else statements
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) A function that returns another function
+</ul>
+</details>
+
+**96. Which method is used to handle asynchronous functions in JavaScript?**
+```js
+a) setTimeout()
+b) Promise.then()
+c) async/await
+d) All of the above
+```
+
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: d) All of the above
+</ul>
+</details>
+
+ **97. Which of the following is NOT true about closures?**
+ ```js
+ a) A closure allows a function to retain access to variables from its outer scope.
+b) Closures are created every time a function is invoked.
+c) Closures help in data encapsulation.
+d) Closures cannot access global variables.
+ ```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: d) Closures cannot access global variables.
+
+</ul>
+</details>
+
+**98. What will be the output of the following code?**
+```js
+const obj = {
+    value: 42,
+    getValue: () => {
+        return this.value;
+    }
+};
+console.log(obj.getValue());
+```
+```js
+a) 42
+b) undefined
+c) ReferenceError
+d) null
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) undefined
+</ul>
+</details>
+
+**99 What will be the output of the following asynchronous function?**
+```js
+async function foo() {
+    return "Hello";
+}
+console.log(foo());
+```
+```js
+a) "Hello"
+b) Promise { "Hello" }
+c) undefined
+d) Error
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) Promise { "Hello" }
+</ul>
+</details>
+
+**100. What is currying in JavaScript?**
+```js
+a) A technique where a function is transformed into a sequence of unary (one-argument) functions.
+b) A method to execute functions asynchronously.
+c) A way to cache function results for optimization.
+d) A technique to convert a function into a class.
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: a) A technique where a function is transformed into a sequence of unary functions.	
+</ul>
+</details>
+
+
