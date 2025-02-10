@@ -66,7 +66,7 @@ Answer: b) "object"
 ```js
 a) final var ={name:'Anil'}
 b) const user={name:'Anil'}
-c) var  user={name:'Anil'}; Object.freeze(obj);
+c) var  user={name:'Anil'}; Object.freeze(user);
 c) There is no way to make immutable object
 ```
 <details>
