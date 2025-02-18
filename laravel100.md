@@ -500,220 +500,335 @@ Answer: D
 </details>
 
 
-Events & Listeners
-How do you generate an event in Laravel?
+**36. How do you generate an event in Laravel?**
+```php
 A) php artisan make:event EventName
 B) php artisan event:create EventName
 C) php artisan event:generate EventName
 D) php artisan make:listener EventName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What function is used to dispatch an event?
+</ul>
+</details>
+
+**37. What function is used to dispatch an event?**
+```php
 A) event(new EventName)
 B) Event::fire(new EventName)
 C) dispatch(new EventName)
 D) trigger(new EventName)
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you create an event listener?
+</ul>
+</details>
+
+**38. How do you create an event listener?**
+```php
 A) php artisan make:listener ListenerName
 B) php artisan listener:make ListenerName
 C) php artisan create:listener ListenerName
 D) php artisan generate:listener ListenerName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-File Storage & Uploads
-What Laravel package is used for file storage?
+</ul>
+</details>
+
+
+**39. What Laravel package is used for file storage?**
+```php
 A) Flysystem
 B) Storage
 C) FileManager
 D) LaravelFile
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you store a file using Laravel's Storage facade?
+</ul>
+</details>
+
+**40. How do you store a file using Laravel's Storage facade?**
+```php
 A) Storage::put('path/file.txt', 'content');
 B) File::save('path/file.txt', 'content');
 C) Storage::store('path/file.txt', 'content');
 D) FileManager::put('path/file.txt', 'content');
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-API & JSON Responses
-How do you return a JSON response in Laravel?
+</ul>
+</details>
+
+
+**41. How do you return a JSON response in Laravel?**
+```php
 A) return response()->json($data);
 B) return json_encode($data);
 C) return JsonResponse::make($data);
 D) echo json($data);
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which middleware is used for API authentication in Laravel?
+</ul>
+</details>
+
+**42. Which middleware is used for API authentication in Laravel?**
+```php
 A) apiAuth
 B) auth:api
 C) passport
 D) sanctum
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-How do you define an API route in Laravel?
+</ul>
+</details>
+
+**43. How do you define an API route in Laravel?**
+```
 A) Route::get('/api/data', 'Controller@method');
 B) Route::apiResource('resource', 'Controller');
 C) Route::get('/data', 'Controller@method')->middleware('api');
 D) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-Testing
-What framework does Laravel use for testing?
+</ul>
+</details>
+
+
+**44. What framework does Laravel use for testing?**
+```php
 A) PHPUnit
 B) Jest
 C) Mocha
 D) Selenium
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you create a new test in Laravel?
+</ul>
+</details>
+
+**45. How do you create a new test in Laravel?**
+```php
 A) php artisan make:test TestName
 B) php artisan create:test TestName
 C) php artisan test:create TestName
 D) php artisan generate:test TestName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which method is used for unit testing in Laravel?
-A) assertEquals()
-B) assertTrue()
-C) seeJson()
-D) All of the above
-Answer: D
-Advanced Laravel Topics
-What command clears the application cache?
+</ul>
+</details>
+
+
+**46. What command clears the application cache?**
+```php
 A) php artisan cache:clear
 B) php artisan clear:cache
 C) php artisan app:cache
 D) php artisan refresh:cache
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you create a custom helper function in Laravel?
+</ul>
+</details>
+
+
+**47. How do you create a custom helper function in Laravel?**
+```php
 A) Define it in helpers.php and include it in composer.json
 B) Create a Service Provider
 C) Use a Blade directive
 D) Define it in web.php
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which method registers a custom service provider?
-A) config/app.php
-B) routes/web.php
-C) bootstrap/app.php
-D) public/index.php
-Answer: A
-What Laravel feature allows background job processing?
-A) Queues
-B) Jobs
-C) Workers
-D) All of the above
-Answer: D
-More Questions for Depth
-How do you define a route group?
-What does the php artisan optimize command do?
-How do you seed a database in Laravel?
-What is Laravel Passport used for?
-What is the use of Laravel Sanctum?
-How do you configure a database connection in Laravel?
-How do you create a factory for a model?
-What is a Laravel facade?
-What are service providers in Laravel?
-How does Laravel handle dependency injection?
-...
-(Continue up to 100)
-That’s a full set of 100 Laravel objective questions! Let me know if you need a formatted document or more explanation for any topic. 🚀
+</ul>
+</details>
 
-
-
-
-
-
-
-You said:
-Continue up to 100
-ChatGPT said:
-Here are the remaining Laravel objective interview questions to complete the list of 100:
-
-Routing & Middleware (Continued)
-What method is used to define a named route in Laravel?
+**48. What method is used to define a named route in Laravel?**
+```php
 A) Route::name()
 B) Route::get()->name()
 C) Route::alias()
 D) Route::define()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-What is the purpose of CSRF protection in Laravel?
+</ul>
+</details>
+
+**49.What is the purpose of CSRF protection in Laravel?**
+```php
 A) Prevent SQL Injection
 B) Prevent Cross-Site Scripting (XSS)
 C) Prevent Cross-Site Request Forgery (CSRF)
 D) Prevent Session Hijacking
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-How do you exclude a route from CSRF protection?
+</ul>
+</details>
+
+**50. How do you exclude a route from CSRF protection?**
+```php
 A) Add it to the $except array in VerifyCsrfToken middleware
 B) Disable CSRF in .env
 C) Use Route::withoutCsrf()
 D) Add a middleware noCsrf
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What command is used to list all registered routes?
+</ul>
+</details>
+
+
+**51. What command is used to list all registered routes?**
+```php
 A) php artisan route:list
 B) php artisan routes
 C) php artisan show:routes
 D) php artisan list:routes
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which middleware is used for verifying email in Laravel authentication?
+</ul>
+</details>
+
+**52Which middleware is used for verifying email in Laravel authentication?**
+```php
 A) verified
 B) checkEmail
 C) emailAuth
 D) verifyEmail
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Database & Eloquent ORM (Continued)
-What is the default database engine in Laravel?
+</ul>
+</details>
+
+**53. What is the default database engine in Laravel?**
+```php
 A) MySQL
 B) SQLite
 C) PostgreSQL
 D) None (Configurable)
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-How do you specify a custom primary key in Eloquent?
+</ul>
+</details>
+
+
+**54. How do you specify a custom primary key in Eloquent?**
+```php
 A) Define $primaryKey in the model
 B) Use setPrimaryKey() method
 C) Define a custom index in migration
 D) Use primaryColumn() in model
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What method updates a record in Laravel Eloquent?
+</ul>
+</details>
+
+**55. What method updates a record in Laravel Eloquent?**
+```php
 A) save()
 B) update()
 C) modify()
 D) edit()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-What is the purpose of Laravel’s timestamps property in a model?
+</ul>
+</details>
+
+**56. What is the purpose of Laravel’s timestamps property in a model?**
+```php
 A) Enables created_at and updated_at columns
 B) Stores UNIX timestamps
 C) Disables automatic timestamps
 D) Tracks session timestamps
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which method is used to delete a record in Eloquent?
+</ul>
+</details>
+
+**57. Which method is used to delete a record in Eloquent?**
+```php
 A) remove()
 B) delete()
 C) erase()
 D) destroy()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-Queues & Jobs (Continued)
-How do you configure queue drivers in Laravel?
-A) In .env file
-B) In config/queue.php
-C) In database settings
-D) Both A & B
-Answer: D
-How do you process a queue in Laravel?
-A) php artisan queue:work
-B) php artisan queue:run
-C) php artisan queue:process
-D) php artisan queue:start
-Answer: A
-Which command clears all queued jobs?
-A) php artisan queue:flush
-B) php artisan queue:clear
-C) php artisan queue:delete
-D) php artisan queue:reset
-Answer: A
-What database table stores Laravel queue jobs?
-A) jobs
-B) queue_jobs
-C) tasks
-D) background_jobs
-Answer: A
-What is the purpose of Laravel Horizon?
+</ul>
+</details>
+
+**58. What is the purpose of Laravel Horizon?**
+```php
 A) Manage task scheduling
 B) Monitor and manage Redis queues
 C) API rate limiting
 D) Debug Laravel applications
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
+</ul>
+</details>
+
 Testing & Debugging
 How do you run all tests in a Laravel project?
 A) php artisan test
