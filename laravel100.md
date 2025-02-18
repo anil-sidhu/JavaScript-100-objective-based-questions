@@ -222,7 +222,19 @@ Answer: B
 </ul>
 </details>
 
-
+**16. Which API method is used for save operation  in Laravel?**
+```php
+A) save
+B) insert
+C) post
+D) get
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
 
 
 
