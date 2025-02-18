@@ -1,7 +1,7 @@
 # Lavavel-100-objective-based-questions
 
 
-Basic Laravel Questions
+
 **1. What is Laravel?**
 ```php
 A) A JavaScript framework
@@ -1094,6 +1094,91 @@ d) Using the secure() helper function
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+</ul>
+</details>
+
+**78. What is the default session driver in Laravel?**
+```php
+A) file
+B) cookie
+C) database
+D) array
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+**79. Which method is used to retrieve a configuration value in Laravel?**
+```php
+A) Config::get()
+B) config()
+C) Configuration::get()
+D) getConfig()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**80. Which command is used to run database migrations in Laravel?**
+```php
+A) php artisan migrate
+B) php artisan db:migrate
+C) php artisan make:migration
+D) php artisan migrate:run
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+**81. Which method is used to define a route that responds to multiple HTTP verbs in Laravel?**
+```php
+A) Route::any()
+B) Route::match()
+C) Route::all()
+D) Route::multi()
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+**82. In Laravel, what does the nullable validation rule indicate?**
+```php
+A) The field must be null
+B) The field is optional and can be null
+C) The field cannot be null
+D) The field must have a default value
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**83. What is the purpose of the php artisan config:cache command in Laravel?**
+```php
+A) Clears all cached views and routes
+B) Caches the configuration files for faster performance
+C) Removes all cache files from the storage
+D) Clears session and application cache
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
 </ul>
 </details>
 
