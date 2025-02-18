@@ -60,119 +60,246 @@ Answer: B
 </ul>
 </details>
 
-Which command is used to start the Laravel development server?
-
+**5. Which command is used to start the Laravel development server?**
 A) php artisan serve
 B) laravel run
 C) php serve
 D) composer serve
-Answer: A
-Routing & Middleware
-What is the default route file in Laravel?
 
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+
+Routing & Middleware
+**6. What is the default route file in Laravel?**
 A) routes.php
 B) web.php
 C) index.php
 D) app.php
-Answer: B
-What method is used to define a GET route in Laravel?
 
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+**7. What method is used to define a GET route in Laravel?**
 A) Route::make()
 B) Route::create()
 C) Route::get()
 D) Route::add()
-Answer: C
-Which middleware is used for user authentication in Laravel?
 
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**8. Which middleware is used for user authentication in Laravel?**
 A) auth
 B) csrf
 C) verifyUser
 D) security
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you define a middleware in Laravel?
+</ul>
+</details>
 
+
+**9. How do you define a middleware in Laravel?**
+```php
 A) php artisan make:middleware MiddlewareName
 B) php artisan middleware:make MiddlewareName
 C) php artisan create:middleware MiddlewareName
 D) php artisan middleware:create MiddlewareName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which file registers middleware in Laravel?
+</ul>
+</details>
 
+**10. Which file registers middleware in Laravel?**
+```php
 A) config/app.php
 B) app/Http/Kernel.php
 C) routes/middleware.php
 D) middleware/kernel.php
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
+</ul>
+</details>
+
 Controllers & Requests
-What command creates a new controller in Laravel?
+
+**11. What command creates a new controller in Laravel?**
+```php
 A) php artisan make:controller ControllerName
 B) php artisan create:controller ControllerName
 C) php artisan controller:make ControllerName
 D) php artisan controller:create ControllerName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What method is used to return a view in a controller?
+</ul>
+</details>
+
+**12. What method is used to return a view in a controller?**
+```php
 A) return template()
 B) return render()
 C) return view()
 D) return blade()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-Which method is used to validate a request in Laravel?
+</ul>
+</details>
+
+**13. Which method is used to validate a request in Laravel?**
+```php
 A) $request->validate()
 B) Validator::make()
 C) validate($request)
 D) Both A and B
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-Models & Eloquent ORM
-What command creates a new model in Laravel?
+</ul>
+</details>
+
+**14. What command creates a new model in Laravel?**
+```php
 A) php artisan make:model ModelName
 B) php artisan create:model ModelName
 C) php artisan model:make ModelName
 D) php artisan generate:model ModelName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you retrieve all records from a model?
+</ul>
+</details>
+
+**15. How do you retrieve all records from a model?**
+```php
 A) Model::all()
 B) Model::getAll()
 C) Model::fetch()
 D) Model::retrieve()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which method finds a record by primary key in Eloquent?
-A) find()
-B) first()
+</ul>
+</details>
+
+**16. Which method finds a record by primary key in Eloquent?**
+```php
+A) firat()
+B) find()
 C) where()
 D) search()
-Answer: A
-Database & Migrations
-What command is used to create a migration?
-A) php artisan make:migration MigrationName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**17. What command is used to create a migration?**
+```php
+A) php artisan migrate:make MigrationName
 B) php artisan create:migration MigrationName
-C) php artisan migrate:make MigrationName
+C) php artisan make:migration MigrationName
 D) php artisan generate:migration MigrationName
-Answer: A
-How do you rollback the last migration?
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**18. How do you rollback the last migration?**
+```php
 A) php artisan migrate:rollback
 B) php artisan migrate:reset
 C) php artisan migrate:down
 D) php artisan rollback:migration
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which database migration method is used to add a new column?
+</ul>
+</details>
+
+
+**19. Which database migration method is used to add a new column?**
+```php
 A) Schema::create()
 B) Schema::addColumn()
 C) Schema::table()
 D) Schema::alter()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-Authentication & Security
-What command is used to set up Laravel authentication?
+</ul>
+</details>
+
+**20. What command is used to set up Laravel authentication?**
+```php
 A) php artisan make:auth
 B) php artisan ui:auth
 C) php artisan auth:setup
 D) php artisan make:login
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-What Laravel feature prevents SQL injection?
+</ul>
+</details>
+
+**21. What Laravel feature prevents SQL injection?**
+```php
 A) Middleware
 B) CSRF tokens
 C) Query Builder
 D) Eloquent ORM (prepared statements)
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
+</ul>
+</details>
+
 How do you generate a new application key in Laravel?
 A) php artisan key:generate
 B) php artisan generate:key
