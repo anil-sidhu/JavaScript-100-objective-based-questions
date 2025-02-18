@@ -300,106 +300,206 @@ Answer: D
 </ul>
 </details>
 
-How do you generate a new application key in Laravel?
+**22. How do you generate a new application key in Laravel?**
+```php
 A) php artisan key:generate
 B) php artisan generate:key
 C) php artisan make:key
 D) php artisan new:key
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Queue & Jobs
-What command is used to create a job in Laravel?
-A) php artisan make:job JobName
-B) php artisan create:job JobName
+</ul>
+</details>
+
+**23. What command is used to create a job in Laravel?**
+```php
+A) php artisan create:job JobName
+B) php artisan make:job JobName
 C) php artisan job:make JobName
 D) php artisan generate:job JobName
-Answer: A
-Which method dispatches a job in Laravel?
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+**24. Which method dispatches a job in Laravel?**
+```php
 A) dispatch(new JobName)
 B) JobName::run()
 C) Queue::push(JobName)
 D) Job::execute(JobName)
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Which database driver is used for Laravel queue?
+</ul>
+</details>
+
+
+**25. Which database driver is used for Laravel queue?**
+```PHP
 A) MySQL
 B) Redis
 C) Beanstalkd
 D) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-This is a partial list; do you want the remaining 75 questions? Let me know if you need further customization! 🚀
+</ul>
+</details>
 
-
-
-
-
-
-
-You said:
-yes
-ChatGPT said:
-Here are the remaining 75 Laravel objective interview questions:
-
-Blade Templating
-How do you extend a layout in Blade?
+**26. How do you extend a layout in Blade?**
+```php
 A) @extend('layout')
 B) @layout('main')
 C) @extends('layout')
 D) @include('layout')
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-How do you include another Blade view inside a template?
+</ul>
+</details>
+
+**27. How do you include another Blade view inside a template?**
+```php
 A) @import('viewname')
 B) @include('viewname')
 C) @use('viewname')
 D) @render('viewname')
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-What syntax is used to display a variable in Blade?
+</ul>
+</details>
+
+**28. What syntax is used to display a variable in Blade?**
+```php
 A) {{ $variable }}
 B) <?php echo $variable; ?>
 C) <% $variable %>
 D) {!! $variable !!}
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you create a Blade component?
+</ul>
+</details>
+
+**29. How do you create a Blade component?**
+```php
 A) php artisan make:component ComponentName
 B) php artisan create:component ComponentName
 C) php artisan component:make ComponentName
 D) php artisan new:component ComponentName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What directive is used to check if a section exists?
+</ul>
+</details>
+
+**30. What directive is used to check if a section exists?**
+```php
 A) @hasSection('sectionname')
 B) @ifSection('sectionname')
 C) @isset('sectionname')
 D) @sectionExists('sectionname')
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Eloquent Relationships
-How do you define a one-to-one relationship in Eloquent?
+</ul>
+</details>
+
+**31. How do you define a one-to-one relationship in Eloquent?**
+```php
 A) hasOne()
 B) belongsTo()
 C) hasMany()
 D) hasOneThrough()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What method defines a one-to-many relationship?
+</ul>
+</details>
+
+**32. What method defines a one-to-many relationship?**
+```php
 A) belongsTo()
 B) hasMany()
 C) hasOne()
 D) manyToOne()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-What method is used to define a many-to-many relationship?
+</ul>
+</details>
+
+
+**33. What method is used to define a many-to-many relationship?**
+```php
 A) belongsToMany()
 B) hasMany()
 C) belongsTo()
 D) hasManyThrough()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What method is used to eager load relationships?
+</ul>
+</details>
+
+**34. What method is used to eager load relationships?**
+```php
 A) load()
 B) eagerLoad()
 C) with()
 D) preload()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-What pivot table convention does Laravel use for many-to-many relationships?
+</ul>
+</details>
+
+**35. What pivot table convention does Laravel use for many-to-many relationships?**
+```php
 A) Table1Table2
 B) Table2Table1
 C) table1_table2
 D) Both A and C
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
+</ul>
+</details>
+
+
 Events & Listeners
 How do you generate an event in Laravel?
 A) php artisan make:event EventName
