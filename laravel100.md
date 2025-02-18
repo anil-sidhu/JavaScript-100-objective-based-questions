@@ -190,6 +190,41 @@ Explanation: The delete() method soft deletes a record when the SoftDeletes trai
 </details>
 
 
+**14. Which command is used to create a Laravel policy?**
+```php
+A) php artisan make:policy
+B) php artisan create:policy
+C) php artisan generate:policy
+D) php artisan policy:make
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+Explanation: The delete() method soft deletes a record when the SoftDeletes trait is used in a model.
+</ul>
+</details>
+
+**15. What is the purpose of the php artisan route:clear command in Laravel?**
+
+```php
+A) Clears the application cache
+B) Clears the compiled route cache
+C) Deletes all routes in web.php
+D) Restores default routes
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+
+
 
 **1. What is Laravel?**
 ```php
