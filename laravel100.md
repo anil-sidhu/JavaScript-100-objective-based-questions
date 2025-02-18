@@ -143,6 +143,53 @@ Answer: B
 </ul>
 </details>
 
+**11. What is the purpose of the php artisan optimize command?**
+```php
+A) Clears the cache and re-compiles classes for better performance
+B) Optimizes the database queries
+C) Deletes unnecessary files from the storage
+D) Optimizes image assets
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+	Explanation: The optimize command caches configuration and compiles commonly used classes to improve performance.
+</ul>
+</details>
+
+**12. Which method is used to retrieve the old input value in Laravel forms?**
+```php
+A) Input::old()
+B) Session::previous()
+C) old()
+D) Form::getOld()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+Explanation: The old('input_name') function retrieves the previous input value stored in the session.
+</ul>
+</details>
+
+**13. Which method is used to soft delete a record in Laravel?**
+```php
+A) $model->remove();
+B) $model->delete();
+C) $model->softDelete();
+D) $model->trash();
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+Explanation: The delete() method soft deletes a record when the SoftDeletes trait is used in a model.
+</ul>
+</details>
+
+
 
 **1. What is Laravel?**
 ```php
