@@ -1,5 +1,121 @@
 # Lavavel-100-objective-based-questions
 
+**1. What is the default database system used in Laravel?**
+```php
+A) PostgreSQL
+B) MySQL
+C) SQLite
+D) MongoDB
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**2. Which command is used to roll back the last database migration?**
+```php
+A) php artisan migrate:down
+B) php artisan migrate:rollback
+C) php artisan migrate:refresh
+D) php artisan migrate:undo
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**3. Which method is used in Eloquent to fetch the first record matching the query?**
+```php
+A) get()
+B) first()
+C) find()
+D) whereFirst()
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**4. Which command is used to create a new Laravel project?**
+```php
+A) composer new laravel
+B) laravel new projectname
+C) php artisan new projectname
+D) composer create-project --prefer-dist laravel/laravel projectname
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: D
+</ul>
+</details>
+
+**5. Which method is used to redirect users in Laravel?**
+```php
+A) redirectTo()
+B) redirect()->route()
+C) routeRedirect()
+D) redirect()->path()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**6. Which command is used to generate a new controller in Laravel?**
+```php
+A) php artisan create:controller
+B) php artisan make:controller
+C) php artisan generate:controller
+D) php artisan controller:make
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**7. Which method is used to define API routes in Laravel?**
+```php
+A) Route::get()
+B) Route::apiResource()
+C) Route::post()
+D) Route::match()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**8. Which HTTP status code is returned when a Laravel route is not found?**
+```php
+A) 200
+B) 403
+C) 404
+D) 500
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+
 
 
 **1. What is Laravel?**
@@ -1181,6 +1297,23 @@ D) Clears session and application cache
 Answer: B
 </ul>
 </details>
+
+
+**84. Which file in Laravel contains the application’s main configuration settings?**
+```php
+A) .env
+B) config/app.php
+C) routes/web.php
+D) bootstrap/app.php
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
 
 
 
