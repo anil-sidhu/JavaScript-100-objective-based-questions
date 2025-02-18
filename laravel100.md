@@ -1,36 +1,65 @@
-Laravel 100 Questions
+# Lavavel-100-objective-based-questions
 
-Here are 100 Laravel objective interview questions, covering various aspects of the framework:
 
 Basic Laravel Questions
-What is Laravel?
-
+**1. What is Laravel?**
+```php
 A) A JavaScript framework
 B) A PHP framework
 C) A Python framework
 D) A Ruby framework
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-Which command is used to create a new Laravel project?
+</ul>
+</details>
 
+
+**2. Which command is used to create a new Laravel project?**
+```php
 A) laravel start
 B) php artisan new
 C) composer create-project
 D) php new laravel
-Answer: C
-What is the default templating engine in Laravel?
+```
 
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**3. What is the default templating engine in Laravel?**
+```php
 A) Twig
 B) Blade
 C) Smarty
 D) Mustache
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
-Which file contains database connection settings in Laravel?
+</ul>
+</details>
 
+**4. Which file contains database connection settings in Laravel?**
+```php
 A) config/database.php
 B) .env
 C) database/config.php
 D) settings.php
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: B
+</ul>
+</details>
+
 Which command is used to start the Laravel development server?
 
 A) php artisan serve
