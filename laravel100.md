@@ -115,7 +115,33 @@ Answer: C
 </ul>
 </details>
 
+**9. Which directory in a Laravel application contains middleware?**
+```
+A) app/Providers
+B) app/Middleware
+C) app/Http/Middleware
+D) routes/middleware
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
 
+**10. Which of the following is used to send emails in Laravel?**
+```
+A) Notification
+B) Mail
+C) Queue
+D) Event
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
 
 
 **1. What is Laravel?**
