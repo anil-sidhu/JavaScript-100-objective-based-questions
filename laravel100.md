@@ -829,97 +829,273 @@ Answer: B
 </ul>
 </details>
 
-Testing & Debugging
-How do you run all tests in a Laravel project?
-A) php artisan test
-B) php artisan run:tests
-C) php artisan test:all
-D) phpunit
-Answer: A
-What Laravel feature is used for handling exceptions?
-A) Exception Handler (app/Exceptions/Handler.php)
-B) Middleware
-C) Event Listener
-D) Debug Mode
-Answer: A
-What is the purpose of dd() function in Laravel?
+**59. What is the purpose of dd() function in Laravel?**
+```php
 A) Debug and die
 B) Display database queries
 C) Delete database records
 D) Define default values
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What tool does Laravel use for debugging?
+</ul>
+</details>
+
+**60. What tool does Laravel use for debugging?**
+```php
 A) Laravel Debugbar
 B) Telescope
 C) Xdebug
 D) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-Which command clears application logs in Laravel?
+</ul>
+</details>
+
+**61. Which command clears application logs in Laravel?**
+```php
 A) php artisan log:clear
 B) php artisan logs:reset
 C) rm -rf storage/logs/*
 D) php artisan optimize:clear
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-Security & Authentication (Continued)
-What hashing algorithm does Laravel use by default?
+</ul>
+</details>
+
+**62. What hashing algorithm does Laravel use by default?**
+```php
 A) MD5
 B) SHA-256
 C) Bcrypt
 D) AES-256
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: C
-How do you hash a password in Laravel?
+</ul>
+</details>
+
+**63. How do you hash a password in Laravel?**
+```php
 A) Hash::make('password');
 B) encrypt('password');
 C) password_hash('password');
 D) Hash::encrypt('password');
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you enable API authentication in Laravel?
+</ul>
+</details>
+
+
+**64. How do you enable API authentication in Laravel?**
+```php
 A) Laravel Passport
 B) Laravel Sanctum
 C) Laravel JWT
 D) All of the above
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: D
-Advanced Laravel Topics
-What is Laravel Mix?
+</ul>
+</details>
+
+**65. What is Laravel Mix?**
+```php
 A) A tool for managing assets (CSS, JS)
 B) A Laravel package manager
 C) A database migration tool
 D) A job scheduler
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What is Laravel Nova?
-A) An administration panel
-B) A database migration tool
-C) A security feature
-D) A testing framework
-Answer: A
-How do you enable Laravel's maintenance mode?
+</ul>
+</details>
+
+
+**66. How do you enable Laravel's maintenance mode?**
+```php
 A) php artisan down
 B) php artisan maintenance:on
 C) php artisan disable:app
 D) php artisan site:down
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-How do you exit maintenance mode?
+</ul>
+</details>
+**67. How do you exit maintenance mode?**
+```php
 A) php artisan up
 B) php artisan maintenance:off
 C) php artisan enable:app
 D) php artisan site:up
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-What command optimizes class loading in Laravel?
+</ul>
+</details>
+
+**68. What command optimizes class loading in Laravel?**
+```php
 A) php artisan optimize
 B) php artisan cache:clear
 C) php artisan optimize:classmap
 D) php artisan clear-compiled
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
 Answer: A
-Final Laravel Questions
-What is Laravel Livewire?
-What is Laravel Jetstream?
-What is the difference between first() and find() in Eloquent?
-What are Laravel macros?
-How does Laravel handle rate limiting?
-What is the difference between soft deletes and hard deletes?
-What is Laravel’s Broadcasting feature used for?
-What is the difference between groupBy() and chunk() in Eloquent?
-What are observers in Laravel?
-How do you set up task scheduling in Laravel?
-What is the purpose of Laravel Envoy?
-How do you encrypt and decrypt data in Laravel?
+</ul>
+</details>
+
+**69. What is Laravel Livewire?**
+```php
+a) A front-end JavaScript framework
+b) A package for real-time applications using WebSockets
+c) A full-stack framework for building dynamic interfaces with PHP
+d) A Laravel authentication system
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**70.What is Laravel Jetstream?**
+```php
+a) A package for database migrations
+b) A Laravel starter kit for authentication and team management
+c) A tool for API development in Laravel
+d) A library for handling background jobs
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**71. What is the difference between first() and find() in Eloquent?**
+```php
+a) first() retrieves a model by primary key, while find() retrieves the first record matching a query
+b) first() retrieves the first record matching a query, while find() retrieves a model by primary key
+c) first() and find() function the same way
+d) find() returns a collection, while first() returns a single model
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**72. What are Laravel macros?**
+```php
+a) Functions used for database seeding
+b) A way to add custom methods to Laravel’s built-in classes
+c) A tool for writing reusable Blade templates
+d) A feature used for routing middleware
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**73. What is the difference between soft deletes and hard deletes?**
+```php
+a) Soft deletes permanently remove records, while hard deletes mark them as deleted
+b) Soft deletes move records to a backup table, while hard deletes remove them permanently
+c) Soft deletes mark records as deleted without removing them, while hard deletes permanently delete records
+d) There is no difference between soft deletes and hard deletes
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**74. What is Laravel’s Broadcasting feature used for?**
+```php
+a) Sending email notifications
+b) Real-time event broadcasting using WebSockets
+c) Uploading media files
+d) Scheduling background jobs
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: b
+</ul>
+</details>
+
+**75. What is the difference between groupBy() and chunk() in Eloquent?**
+```php
+a) groupBy() groups records based on a column, while chunk() retrieves records in smaller portions
+b) chunk() groups records, while groupBy() retrieves them in batches
+c) Both perform the same function
+d) groupBy() is only used for caching data
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+**76. What are observers in Laravel?**
+```php
+a) A design pattern for middleware
+b) A feature for handling model events
+c) A tool for monitoring database queries
+d) A method for API versioning
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+**77. How do you encrypt and decrypt data in Laravel?**
+```php
+a) Using Crypt::encrypt() and Crypt::decrypt()
+b) Using Hash::make() and Hash::check()
+c) Storing data as base64 strings
+d) Using the secure() helper function
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+
+
