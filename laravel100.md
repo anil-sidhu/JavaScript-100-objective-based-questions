@@ -44,6 +44,23 @@ The redirect()->route('route_name')
 </ul>
 </details>
 
+**4. Which command is used to generate a new controller in Laravel?**
+```php
+A) php artisan create:controller
+B) php artisan make:controller
+C) php artisan generate:controller
+D) php artisan controller:make
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+	```php 
+	php artisan make:controller PostController```
+	```
+</ul>
+</details>
+
 **2. Which command is used to roll back the last database migration?**
 ```php
 A) php artisan migrate:down
@@ -75,20 +92,6 @@ Answer: C
 </details>
 
 
-
-**6. Which command is used to generate a new controller in Laravel?**
-```php
-A) php artisan create:controller
-B) php artisan make:controller
-C) php artisan generate:controller
-D) php artisan controller:make
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
-</ul>
-</details>
 
 **7. Which method is used to define API routes in Laravel?**
 ```php
