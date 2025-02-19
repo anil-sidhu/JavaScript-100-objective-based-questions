@@ -55,13 +55,11 @@ D) php artisan controller:make
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
-	```php 
-	php artisan make:controller PostController```
-	```
+Example:- php artisan make:controller PostController
 </ul>
 </details>
 
-**2. Which command is used to roll back the last database migration?**
+**5. Which command is used to roll back the last database migration?**
 ```php
 A) php artisan migrate:down
 B) php artisan migrate:rollback
@@ -71,6 +69,15 @@ D) php artisan migrate:undo
 
 <details>
 	<summary><b>View Answer</b></summary>
+	
+	If you have run a migration that creates a `users` table:
+	
+	php artisan migrate
+	Then, to roll back the last migration batch, use:
+ 	php artisan migrate:rollback
+ 	php artisan migrate:rollback --step=2
+
+
 <ul>
 Answer: B
 </ul>
