@@ -77,11 +77,30 @@ D) php artisan migrate:undo
  	php artisan migrate:rollback
  	php artisan migrate:rollback --step=2
 
-
 <ul>
 Answer: B
 </ul>
 </details>
+
+**6. Which method is used to define API routes in Laravel?**
+```php
+A) Route::get()
+B) Route::apiResource()
+C) Route::post()
+D) Route::match()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+	
+	Route::apiResource('posts', PostController::class);
+ 	This single line will generate API routes for CRUD operations (index, store, show, update, and destroy) on the posts resource.
+
+
+</ul>
+</details>
+
 
 **3. Which method is used in Eloquent to fetch the first record matching the query?**
 ```php
