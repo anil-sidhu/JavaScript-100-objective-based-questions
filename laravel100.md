@@ -132,6 +132,12 @@ D) 500
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
+	
+	200: status code means "OK," indicating a successful request and that the page was loaded properly
+ 	403: "Forbidden" - means the server understands the request but is refusing access to the resource. 
+  	404: "Not Found" - means the server couldn't find the requested page. 
+   	500: "Internal Server Error" - indicates a problem on the server side preventing the request from being processed. 
+ 
 </ul>
 </details>
 
@@ -148,6 +154,38 @@ D) routes/middleware
 Answer: C
 </ul>
 </details>
+
+**10. What is the role of middleware in Laravel?**
+```
+A) A type of database migration
+B) A tool for managing views
+C) A mechanism for filtering HTTP requests
+D) A Laravel package for authentication
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+
+**11. How to make middleware in Laravel?**
+```
+A) php artisan make:middleware MiddlewareName
+B) php artisan middleware:MiddlewareName
+C) php artisan middleware:MiddlewareName --make
+D) php artisan middleware:make -- MiddlewareName
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+	
+	php artisan make:middleware CheckAge
+</ul>
+</details>
+
 
 **10. Which of the following is used to send emails in Laravel?**
 ```
