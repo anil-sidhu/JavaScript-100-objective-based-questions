@@ -69,16 +69,15 @@ D) php artisan migrate:undo
 
 <details>
 	<summary><b>View Answer</b></summary>
-	
+
+<ul>
+Answer: B
+		
 	If you have run a migration that creates a `users` table:
-	
 	php artisan migrate
 	Then, to roll back the last migration batch, use:
  	php artisan migrate:rollback
  	php artisan migrate:rollback --step=2
-
-<ul>
-Answer: B
 </ul>
 </details>
 
@@ -94,7 +93,7 @@ D) Route::match()
 <ul>
 Answer: B
 	
-	Route::apiResource('posts', PostController::class);
+	Route::apiResource('users', PostController::class);
  	This single line will generate API routes for CRUD operations (index, store, show, update, and destroy) on the posts resource.
 
 
@@ -102,7 +101,7 @@ Answer: B
 </details>
 
 
-**3. Which method is used in Eloquent to fetch the first record matching the query?**
+**7. Which method is used in Eloquent to fetch the first record matching the query?**
 ```php
 A) get()
 B) first()
@@ -114,24 +113,13 @@ D) whereFirst()
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
+	
+	$user = User::where('email', 'example@example.com')->first();
+
 </ul>
 </details>
 
 
-
-**7. Which method is used to define API routes in Laravel?**
-```php
-A) Route::get()
-B) Route::apiResource()
-C) Route::post()
-D) Route::match()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
-</ul>
-</details>
 
 **8. Which HTTP status code is returned when a Laravel route is not found?**
 ```php
