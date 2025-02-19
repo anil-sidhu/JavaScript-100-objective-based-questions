@@ -15,6 +15,20 @@ Answer: C
 </ul>
 </details>
 
+**2. Which command is used to create a new Laravel project?**
+```php
+A) composer new laravel
+B) laravel new projectname
+C) php artisan new projectname
+D) composer create-project --prefer-dist laravel/laravel projectname
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B and D
+</ul>
+</details>
+
 **2. Which command is used to roll back the last database migration?**
 ```php
 A) php artisan migrate:down
