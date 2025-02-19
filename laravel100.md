@@ -29,6 +29,21 @@ Answer: B and D
 </ul>
 </details>
 
+**3. Which method is used to redirect users in Laravel?**
+```php
+A) redirectTo()
+B) redirect()->route()
+C) routeRedirect()
+D) redirect()->path()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+The redirect()->route('route_name')
+</ul>
+</details>
+
 **2. Which command is used to roll back the last database migration?**
 ```php
 A) php artisan migrate:down
@@ -59,33 +74,7 @@ Answer: C
 </ul>
 </details>
 
-**4. Which command is used to create a new Laravel project?**
-```php
-A) composer new laravel
-B) laravel new projectname
-C) php artisan new projectname
-D) composer create-project --prefer-dist laravel/laravel projectname
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: D
-</ul>
-</details>
 
-**5. Which method is used to redirect users in Laravel?**
-```php
-A) redirectTo()
-B) redirect()->route()
-C) routeRedirect()
-D) redirect()->path()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
-</ul>
-</details>
 
 **6. Which command is used to generate a new controller in Laravel?**
 ```php
