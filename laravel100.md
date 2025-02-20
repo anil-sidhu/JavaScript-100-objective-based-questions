@@ -794,22 +794,7 @@ Answer: A
 </ul>
 </details>
 
-**45. How do you create a new test in Laravel?**
-```php
-A) php artisan make:test TestName
-B) php artisan create:test TestName
-C) php artisan test:create TestName
-D) php artisan generate:test TestName
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-
-**46. What command clears the application cache?**
+**49. What command clears the application cache?**
 ```php
 A) php artisan cache:clear
 B) php artisan clear:cache
@@ -820,11 +805,13 @@ D) php artisan refresh:cache
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	
+	This command is used for clear all cache such as routes, view etc
 </ul>
 </details>
 
 
-**47. How do you create a custom helper function in Laravel?**
+**50. How do you create a custom helper function in Laravel?**
 ```php
 A) Define it in helpers.php and include it in composer.json
 B) Create a Service Provider
@@ -838,17 +825,33 @@ Answer: A
 </ul>
 </details>
 
-**48. What method is used to define a named route in Laravel?**
+**51. What is a named route in Laravel??**
 ```php
-A) Route::name()
-B) Route::get()->name()
-C) Route::alias()
-D) Route::define()
+A) A route that uses the GET method only
+B) A route that is assigned a unique name for easier URL generation and redirection
+C) A route that requires authentication before access
+D) A route that dynamically generates URLs based on user input
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+		
+	A named route in Laravel is a way to assign a name to a specific route, making it easier to generate URLs or redirects dynamically.
+</ul>
+</details>
+
+**52. What method is used to define a named route in Laravel?**
+```php
+A) Route::name()
+B) Route::alias()
+C) Route::get()->name()
+D) Route::define()
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
 </ul>
 </details>
 
