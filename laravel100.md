@@ -1160,21 +1160,8 @@ Answer: C
 </ul>
 </details>
 
-**70.What is Laravel Jetstream?**
-```php
-a) A package for database migrations
-b) A Laravel starter kit for authentication and team management
-c) A tool for API development in Laravel
-d) A library for handling background jobs
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
-</ul>
-</details>
 
-**71. What is the difference between first() and find() in Eloquent?**
+**72. What is the difference between first() and find() in Eloquent?**
 ```php
 a) first() retrieves a model by primary key, while find() retrieves the first record matching a query
 b) first() retrieves the first record matching a query, while find() retrieves a model by primary key
@@ -1188,19 +1175,6 @@ Answer: B
 </ul>
 </details>
 
-**72. What are Laravel macros?**
-```php
-a) Functions used for database seeding
-b) A way to add custom methods to Laravel’s built-in classes
-c) A tool for writing reusable Blade templates
-d) A feature used for routing middleware
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
-</ul>
-</details>
 
 **73. What is the difference between soft deletes and hard deletes?**
 ```php
@@ -1244,20 +1218,20 @@ Answer: A
 </ul>
 </details>
 
-**76. What are observers in Laravel?**
+**76. what is mutator in laravel?**
 ```php
-a) A design pattern for middleware
-b) A feature for handling model events
-c) A tool for monitoring database queries
-d) A method for API versioning
+a) In Laravel, a mutator is a method defined in an Eloquent model that manipulates the value of a column before it is saved. 
+b) Mutators in Laravel allow automatic data transformation when setting attributes in an Eloquent model.
+c) A mutator in Laravel is a function that alters the format of model attributes before persisting them to the database.
+d) A mutator in Laravel is a method used to modify an attribute before saving it to the database.
 ```
-
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: B
+Answer: D
 </ul>
 </details>
+
 
 **77. How do you encrypt and decrypt data in Laravel?**
 ```php
@@ -1275,15 +1249,15 @@ Answer: A
 
 **78. What is the default session driver in Laravel?**
 ```php
-A) file
+A) array
 B) cookie
 C) database
-D) array
+D) file
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: A
+Answer: D
 </ul>
 </details>
 
@@ -1329,6 +1303,8 @@ D) Route::multi()
 Answer: B
 </ul>
 </details>
+
+
 **82. In Laravel, what does the nullable validation rule indicate?**
 ```php
 A) The field must be null
@@ -1340,6 +1316,10 @@ D) The field must have a default value
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	$request->validate([
+    'email' => 'nullable|email', // Email can be null, but if present, must be valid
+	]);
 </ul>
 </details>
 
@@ -1373,20 +1353,6 @@ Answer: B
 </ul>
 </details>
 
-**16. Which command is used to create a Laravel policy?**
-```php
-A) php artisan make:policy
-B) php artisan create:policy
-C) php artisan generate:policy
-D) php artisan policy:make
-```
-
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
 
 
 
