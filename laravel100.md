@@ -855,7 +855,7 @@ Answer: C
 </ul>
 </details>
 
-**49.What is the purpose of CSRF protection in Laravel?**
+**53.What is the purpose of CSRF protection in Laravel?**
 ```php
 A) Prevent SQL Injection
 B) Prevent Cross-Site Scripting (XSS)
@@ -866,25 +866,13 @@ D) Prevent Session Hijacking
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
-</ul>
-</details>
-
-**50. How do you exclude a route from CSRF protection?**
-```php
-A) Add it to the $except array in VerifyCsrfToken middleware
-B) Disable CSRF in .env
-C) Use Route::withoutCsrf()
-D) Add a middleware noCsrf
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
+	
+	web attack that tricks a user into performing unwanted actions on a website. 
 </ul>
 </details>
 
 
-**51. What command is used to list all registered routes?**
+**54. What command is used to list all registered routes?**
 ```php
 A) php artisan route:list
 B) php artisan routes
@@ -898,7 +886,7 @@ Answer: A
 </ul>
 </details>
 
-**52Which middleware is used for verifying email in Laravel authentication?**
+**55. Which middleware is used for verifying email in Laravel authentication?**
 ```php
 A) verified
 B) checkEmail
@@ -909,10 +897,16 @@ D) verifyEmail
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	
+	Illuminate\Auth\Middleware\EnsureEmailIsVerified
+
+	 if (! $request->user() || ! $request->user()->hasVerifiedEmail()) {
+	    return redirect()->route('verification.notice');
+	}
 </ul>
 </details>
 
-**53. What is the default database engine in Laravel?**
+**56. What is the default database engine in Laravel?**
 ```php
 A) MySQL
 B) SQLite
@@ -927,7 +921,7 @@ Answer: D
 </details>
 
 
-**54. How do you specify a custom primary key in Eloquent?**
+**57. How do you specify a custom primary key in Eloquent?**
 ```php
 A) Define $primaryKey in the model
 B) Use setPrimaryKey() method
@@ -941,7 +935,7 @@ Answer: A
 </ul>
 </details>
 
-**55. What method updates a record in Laravel Eloquent?**
+**58. What method updates a record in Laravel Eloquent?**
 ```php
 A) save()
 B) update()
@@ -952,10 +946,16 @@ D) edit()
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	$user = User::find(1);  // Find the user with ID 1
+	$user->update([
+    'name' => 'John Doe',
+    'email' => 'johndoe@example.com'
+	]);
 </ul>
 </details>
 
-**56. What is the purpose of Laravel’s timestamps property in a model?**
+**59. What is the purpose of Laravel’s timestamps property in a model?**
 ```php
 A) Enables created_at and updated_at columns
 B) Stores UNIX timestamps
@@ -966,10 +966,15 @@ D) Tracks session timestamps
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	
+	class Post extends Model
+	{
+    public $timestamps = false;
+	}
 </ul>
 </details>
 
-**57. Which method is used to delete a record in Eloquent?**
+**60. Which method is used to delete a record in Eloquent?**
 ```php
 A) remove()
 B) delete()
@@ -980,10 +985,13 @@ D) destroy()
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	$user = User::find(1); // Find the user with ID 1
+	$user->delete(); // Delete the user
 </ul>
 </details>
 
-**58. What is the purpose of Laravel Horizon?**
+**61. What is the purpose of Laravel Horizon?**
 ```php
 A) Manage task scheduling
 B) Monitor and manage Redis queues
@@ -994,10 +1002,12 @@ D) Debug Laravel applications
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+			
+	Laravel Horizon is a tool within the Laravel framework designed to monitor and manage background job queues
 </ul>
 </details>
 
-**59. What is the purpose of dd() function in Laravel?**
+**62. What is the purpose of dd() function in Laravel?**
 ```php
 A) Debug and die
 B) Display database queries
@@ -1008,10 +1018,13 @@ D) Define default values
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+		
+	$data = ['name' => 'John', 'email' => 'john@example.com'];
+	dd($data);
 </ul>
 </details>
 
-**60. What tool does Laravel use for debugging?**
+**63. What tool does Laravel use for debugging?**
 ```php
 A) Laravel Debugbar
 B) Telescope
@@ -1025,21 +1038,7 @@ Answer: D
 </ul>
 </details>
 
-**61. Which command clears application logs in Laravel?**
-```php
-A) php artisan log:clear
-B) php artisan logs:reset
-C) rm -rf storage/logs/*
-D) php artisan optimize:clear
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: C
-</ul>
-</details>
-
-**62. What hashing algorithm does Laravel use by default?**
+**64. What hashing algorithm does Laravel use by default?**
 ```php
 A) MD5
 B) SHA-256
@@ -1050,10 +1049,16 @@ D) AES-256
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
+	
+	use Illuminate\Support\Facades\Hash;
+	$hashedPassword = Hash::make('secret');
+ 
+	'default' => 'argon2id', // Change 'bcrypt' to 'argon2id' if desired
+
 </ul>
 </details>
 
-**63. How do you hash a password in Laravel?**
+**65. How do you hash a password in Laravel?**
 ```php
 A) Hash::make('password');
 B) encrypt('password');
@@ -1068,7 +1073,7 @@ Answer: A
 </details>
 
 
-**64. How do you enable API authentication in Laravel?**
+**66. How do you enable API authentication in Laravel?**
 ```php
 A) Laravel Passport
 B) Laravel Sanctum
@@ -1082,7 +1087,7 @@ Answer: D
 </ul>
 </details>
 
-**65. What is Laravel Mix?**
+**67. What is Laravel Mix?**
 ```php
 A) A tool for managing assets (CSS, JS)
 B) A Laravel package manager
@@ -1097,7 +1102,7 @@ Answer: A
 </details>
 
 
-**66. How do you enable Laravel's maintenance mode?**
+**68. How do you enable Laravel's maintenance mode?**
 ```php
 A) php artisan down
 B) php artisan maintenance:on
@@ -1110,7 +1115,8 @@ D) php artisan site:down
 Answer: A
 </ul>
 </details>
-**67. How do you exit maintenance mode?**
+
+**69. How do you exit maintenance mode?**
 ```php
 A) php artisan up
 B) php artisan maintenance:off
@@ -1124,7 +1130,7 @@ Answer: A
 </ul>
 </details>
 
-**68. What command optimizes class loading in Laravel?**
+**70. What command optimizes class loading in Laravel?**
 ```php
 A) php artisan optimize
 B) php artisan cache:clear
@@ -1135,10 +1141,12 @@ D) php artisan clear-compiled
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	
+	analyzes and modifies code to improve its performance
 </ul>
 </details>
 
-**69. What is Laravel Livewire?**
+**71. What is Laravel Livewire?**
 ```php
 a) A front-end JavaScript framework
 b) A package for real-time applications using WebSockets
