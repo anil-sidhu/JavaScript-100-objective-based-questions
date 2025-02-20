@@ -199,6 +199,8 @@ D) Event
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	In Laravel, the Mail facade is used to send emails. Laravel provides a built-in mail system that allows you to send emails using various drivers such as SMTP, Mailgun, Postmark, Amazon SES,
 </ul>
 </details>
 
@@ -214,7 +216,11 @@ D) Optimizes image assets
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
-	Explanation: The optimize command caches configuration and compiles commonly used classes to improve performance.
+	The php artisan optimize command in Laravel is used to improve application performance by caching commonly used components. This command:
+
+Compiles commonly used classes into a single file, reducing the need to autoload multiple files separately.
+Caches configuration files to avoid repeatedly loading and parsing them.
+Caches routes to speed up route resolution.
 </ul>
 </details>
 
