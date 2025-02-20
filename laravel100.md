@@ -262,7 +262,7 @@ class User extends Model
 
 
 
-**15. What is the purpose of the php artisan route:cache command in Laravel?**
+**16. What is the purpose of the php artisan route:cache command in Laravel?**
 
 ```php
 A) Clears the cached routes
@@ -279,7 +279,7 @@ Answer: B
 </ul>
 </details>
 
-**16. What is the purpose of the php artisan route:clear command in Laravel?**
+**17. What is the purpose of the php artisan route:clear command in Laravel?**
 
 ```php
 A) Remove extra routes which is not getting used.
@@ -296,7 +296,7 @@ Answer: B
 </ul>
 </details>
 
-**17. Which API method is used for save operation  in Laravel?**
+**18. Which API method is used for save operation  in Laravel?**
 ```php
 A) save
 B) insert
@@ -310,7 +310,7 @@ Answer: B
 </ul>
 </details>
 
-**18. What is Laravel?**
+**19. What is Laravel?**
 ```php
 A) A PHP framework where we can make API with php
 B) A PHP framework for web development 
@@ -325,7 +325,7 @@ Answer: B
 </details>
 
 
-**19. What is the default templating engine in Laravel?**
+**20. What is the default templating engine in Laravel?**
 ```php
 A) Twig
 B) Blade
@@ -339,7 +339,7 @@ Answer: B
 </ul>
 </details>
 
-**20. Can we use Twig templating engine in Laravel?**
+**21. Can we use Twig templating engine in Laravel?**
 ```php
 A) Yes
 B) Not
@@ -353,7 +353,7 @@ Answer: A
 </ul>
 </details>
 
-**4. Which file contains database connection settings in Laravel?**
+**22. Which file contains database connection settings in Laravel?**
 ```php
 A) config/database.php
 B) .env
@@ -364,15 +364,23 @@ D) settings.php
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	DB_CONNECTION=mysql
+ 	DB_HOST=127.0.0.1
+	DB_PORT=3306
+	DB_DATABASE=laravel_db
+	DB_USERNAME=root
+	DB_PASSWORD=secret
 </ul>
 </details>
 
-**5. Which command is used to start the Laravel development server?**
+**23. Which command is used to start the Laravel development server?**
+```php
 A) php artisan serve
 B) laravel run
 C) php serve
 D) composer serve
-
+```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
@@ -381,35 +389,43 @@ Answer: A
 </details>
 
 
-Routing & Middleware
-**6. What is the default route file in Laravel?**
+**24. What is the default route file in Laravel?**
+```php
 A) routes.php
 B) web.php
 C) index.php
 D) app.php
-
+```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	web.php for web routes
+	api.php for api routes
 </ul>
 </details>
 
 
-**7. What method is used to define a GET route in Laravel?**
+**25. What method is used to define a GET route in Laravel?**
+```php
 A) Route::make()
 B) Route::create()
 C) Route::get()
 D) Route::add()
-
+```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
+	
+	Route::get()
+ 	Route::post()
+  	Route::delete()
 </ul>
 </details>
 
-**8. Which middleware is used for user authentication in Laravel?**
+**26. Which middleware is used for user authentication in Laravel?**
 A) auth
 B) csrf
 C) verifyUser
@@ -418,23 +434,11 @@ D) security
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	auth is default authentication routes
 </ul>
 </details>
 
 
-**9. How do you define a middleware in Laravel?**
-```php
-A) php artisan make:middleware MiddlewareName
-B) php artisan middleware:make MiddlewareName
-C) php artisan create:middleware MiddlewareName
-D) php artisan middleware:create MiddlewareName
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
 
 **10. Which file registers middleware in Laravel?**
 ```php
