@@ -40,7 +40,8 @@ D) redirect()->path()
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
-The redirect()->route('route_name')
+	
+	The redirect()->route('route_name')
 </ul>
 </details>
 
