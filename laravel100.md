@@ -188,7 +188,7 @@ Answer: A
 </details>
 
 
-**10. Which of the following is used to send emails in Laravel?**
+**12. Which of the following is used to send emails in Laravel?**
 ```
 A) Notification
 B) Mail
@@ -204,7 +204,7 @@ Answer: B
 </ul>
 </details>
 
-**11. What is the purpose of the php artisan optimize command?**
+**13. What is the purpose of the php artisan optimize command?**
 ```php
 A) Clears the cache and re-compiles classes for better performance
 B) Optimizes the database queries
@@ -216,15 +216,16 @@ D) Optimizes image assets
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
-	The php artisan optimize command in Laravel is used to improve application performance by caching commonly used components. This command:
-
-Compiles commonly used classes into a single file, reducing the need to autoload multiple files separately.
-Caches configuration files to avoid repeatedly loading and parsing them.
-Caches routes to speed up route resolution.
+	
+	The php artisan optimize command in Laravel is used to improve application performance by caching commonly used components.
+ 
+ 	This command:Compiles commonly used classes into a single file, reducing 	the need to autoload multiple files separately.	
+ 	Caches configuration files to avoid repeatedly loading and parsing them.
+ 	Caches routes to speed up route resolution.
 </ul>
 </details>
 
-**12. Which method is used to retrieve the old input value in Laravel forms?**
+**14. Which method is used to retrieve the old input value in Laravel forms?**
 ```php
 A) Input::old()
 B) Session::previous()
@@ -235,11 +236,10 @@ D) Form::getOld()
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
-Explanation: The old('input_name') function retrieves the previous input value stored in the session.
 </ul>
 </details>
 
-**13. Which method is used to soft delete a record in Laravel?**
+**15. Which method is used to soft delete a record in Laravel?**
 ```php
 A) $model->remove();
 B) $model->delete();
@@ -250,44 +250,53 @@ D) $model->trash();
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
-Explanation: The delete() method soft deletes a record when the SoftDeletes trait is used in a model.
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class User extends Model
+{
+    use SoftDeletes;
+}
 </ul>
 </details>
 
 
-**14. Which command is used to create a Laravel policy?**
-```php
-A) php artisan make:policy
-B) php artisan create:policy
-C) php artisan generate:policy
-D) php artisan policy:make
-```
 
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-Explanation: The delete() method soft deletes a record when the SoftDeletes trait is used in a model.
-</ul>
-</details>
-
-**15. What is the purpose of the php artisan route:clear command in Laravel?**
+**15. What is the purpose of the php artisan route:cache command in Laravel?**
 
 ```php
-A) Clears the application cache
-B) Clears the compiled route cache
-C) Deletes all routes in web.php
-D) Restores default routes
+A) Clears the cached routes
+B) Caches and optimizes routes for faster performance
+C) Generates route URLs dynamically
+D) B and C
 ```
-
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	Laravel provides a route caching mechanism to improve performance by compiling all routes into a single file. This cached file allows the application to load routes faster, reducing processing time.
 </ul>
 </details>
 
-**16. Which API method is used for save operation  in Laravel?**
+**16. What is the purpose of the php artisan route:clear command in Laravel?**
+
+```php
+A) Remove extra routes which is not getting used.
+B) Clears the compiled route cache
+C) Deletes all routes in web.php
+D) Restores default routes
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+	
+	The php artisan route:cache command generates a cached version of the routes.
+</ul>
+</details>
+
+**17. Which API method is used for save operation  in Laravel?**
 ```php
 A) save
 B) insert
@@ -301,14 +310,12 @@ Answer: B
 </ul>
 </details>
 
-
-
-**1. What is Laravel?**
+**18. What is Laravel?**
 ```php
-A) A JavaScript framework
-B) A PHP framework
-C) A Python framework
-D) A Ruby framework
+A) A PHP framework where we can make API with php
+B) A PHP framework for web development 
+C) Full stack framwork
+D) All of above 
 ```
 <details>
 	<summary><b>View Answer</b></summary>
@@ -318,22 +325,7 @@ Answer: B
 </details>
 
 
-**2. Which command is used to create a new Laravel project?**
-```php
-A) laravel start
-B) php artisan new
-C) composer create-project
-D) php new laravel
-```
-
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: C
-</ul>
-</details>
-
-**3. What is the default templating engine in Laravel?**
+**19. What is the default templating engine in Laravel?**
 ```php
 A) Twig
 B) Blade
@@ -344,6 +336,20 @@ D) Mustache
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+</ul>
+</details>
+
+**20. Can we use Twig templating engine in Laravel?**
+```php
+A) Yes
+B) Not
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+	
+	The default template engine used in Symfony. Twig is fast, secure, and flexible. It has a sandbox mode to evaluate untrusted template code
 </ul>
 </details>
 
@@ -1498,6 +1504,20 @@ Answer: B
 </ul>
 </details>
 
+**16. Which command is used to create a Laravel policy?**
+```php
+A) php artisan make:policy
+B) php artisan create:policy
+C) php artisan generate:policy
+D) php artisan policy:make
+```
+
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
 
 
 
