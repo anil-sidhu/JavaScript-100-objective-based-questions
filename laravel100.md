@@ -593,7 +593,7 @@ Answer: A
 </ul>
 </details>
 
-**23. What command is used to create a job in Laravel?**
+**36. What command is used to create a job in Laravel?**
 ```php
 A) php artisan create:job JobName
 B) php artisan make:job JobName
@@ -604,26 +604,13 @@ D) php artisan generate:job JobName
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	Jobs are used to handle tasks that should be executed in the background
 </ul>
 </details>
 
 
-**24. Which method dispatches a job in Laravel?**
-```php
-A) dispatch(new JobName)
-B) JobName::run()
-C) Queue::push(JobName)
-D) Job::execute(JobName)
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-
-**25. Which database driver is used for Laravel queue?**
+**37. Which database driver is used for Laravel queue?**
 ```PHP
 A) MySQL
 B) Redis
@@ -637,7 +624,7 @@ Answer: D
 </ul>
 </details>
 
-**26. How do you extend a layout in Blade?**
+**38. How do you extend a layout in Blade?**
 ```php
 A) @extend('layout')
 B) @layout('main')
@@ -648,10 +635,12 @@ D) @include('layout')
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: C
+	
+	blade layouts are used to create a consistent structure for web pages
 </ul>
 </details>
 
-**27. How do you include another Blade view inside a template?**
+**39. How do you include another Blade view inside a template?**
 ```php
 A) @import('viewname')
 B) @include('viewname')
@@ -662,24 +651,30 @@ D) @render('viewname')
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: B
+	
+	we include blade view to reuse functionality 
 </ul>
 </details>
 
-**28. What syntax is used to display a variable in Blade?**
+**40. What syntax is used to for loop Blade template laravel?**
 ```php
-A) {{ $variable }}
-B) <?php echo $variable; ?>
-C) <% $variable %>
-D) {!! $variable !!}
+A) @foreach ($items as $item)
+B) @for ($i = 0; $i < 10; $i++)
+C) @while ($condition)
+D) @if ($condition)
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+	
+	@for ($i = 0; $i < 5; $i++)
+    		<p>Iteration {{ $i }}</p>
+	@endfor
 </ul>
 </details>
 
-**29. How do you create a Blade component?**
+**41. How do you create a Blade component?**
 ```php
 A) php artisan make:component ComponentName
 B) php artisan create:component ComponentName
@@ -690,10 +685,12 @@ D) php artisan new:component ComponentName
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
+		
+	define reusable UI elements and layouts in Blade template
 </ul>
 </details>
 
-**30. What directive is used to check if a section exists?**
+**42. What directive is used to check if a section exists?**
 ```php
 A) @hasSection('sectionname')
 B) @ifSection('sectionname')
@@ -704,127 +701,16 @@ D) @sectionExists('sectionname')
 	<summary><b>View Answer</b></summary>
 <ul>
 Answer: A
-</ul>
-</details>
-
-**31. How do you define a one-to-one relationship in Eloquent?**
-```php
-A) hasOne()
-B) belongsTo()
-C) hasMany()
-D) hasOneThrough()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-**32. What method defines a one-to-many relationship?**
-```php
-A) belongsTo()
-B) hasMany()
-C) hasOne()
-D) manyToOne()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: B
+	
+	The @section directive in a Laravel Blade file is used to define a section of content
 </ul>
 </details>
 
 
-**33. What method is used to define a many-to-many relationship?**
+
+**43. What Laravel package is used for file storage?**
 ```php
-A) belongsToMany()
-B) hasMany()
-C) belongsTo()
-D) hasManyThrough()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-**34. What method is used to eager load relationships?**
-```php
-A) load()
-B) eagerLoad()
-C) with()
-D) preload()
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: C
-</ul>
-</details>
-
-**35. What pivot table convention does Laravel use for many-to-many relationships?**
-```php
-A) Table1Table2
-B) Table2Table1
-C) table1_table2
-D) Both A and C
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: D
-</ul>
-</details>
-
-
-**36. How do you generate an event in Laravel?**
-```php
-A) php artisan make:event EventName
-B) php artisan event:create EventName
-C) php artisan event:generate EventName
-D) php artisan make:listener EventName
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-**37. What function is used to dispatch an event?**
-```php
-A) event(new EventName)
-B) Event::fire(new EventName)
-C) dispatch(new EventName)
-D) trigger(new EventName)
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-**38. How do you create an event listener?**
-```php
-A) php artisan make:listener ListenerName
-B) php artisan listener:make ListenerName
-C) php artisan create:listener ListenerName
-D) php artisan generate:listener ListenerName
-```
-<details>
-	<summary><b>View Answer</b></summary>
-<ul>
-Answer: A
-</ul>
-</details>
-
-
-**39. What Laravel package is used for file storage?**
-```php
-A) Flysystem
+A) Filesystem
 B) Storage
 C) FileManager
 D) LaravelFile
@@ -836,7 +722,7 @@ Answer: A
 </ul>
 </details>
 
-**40. How do you store a file using Laravel's Storage facade?**
+**44. How do you store a file using Laravel's Storage facade?**
 ```php
 A) Storage::put('path/file.txt', 'content');
 B) File::save('path/file.txt', 'content');
@@ -851,21 +737,21 @@ Answer: A
 </details>
 
 
-**41. How do you return a JSON response in Laravel?**
+**45. How do you return a JSON response in Laravel?**
 ```php
-A) return response()->json($data);
-B) return json_encode($data);
+A) return json_encode($data);
+B) return response()->json($data);
 C) return JsonResponse::make($data);
 D) echo json($data);
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: A
+Answer: B
 </ul>
 </details>
 
-**42. Which middleware is used for API authentication in Laravel?**
+**46. Which middleware is used for API authentication in Laravel?**
 ```php
 A) apiAuth
 B) auth:api
@@ -879,7 +765,7 @@ Answer: D
 </ul>
 </details>
 
-**43. How do you define an API route in Laravel?**
+**47. How do you define an API route in Laravel?**
 ```
 A) Route::get('/api/data', 'Controller@method');
 B) Route::apiResource('resource', 'Controller');
@@ -894,7 +780,7 @@ Answer: D
 </details>
 
 
-**44. What framework does Laravel use for testing?**
+**48. What framework does Laravel use for testing?**
 ```php
 A) PHPUnit
 B) Jest
