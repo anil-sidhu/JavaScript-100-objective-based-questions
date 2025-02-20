@@ -1353,6 +1353,48 @@ Answer: B
 </ul>
 </details>
 
+**85. Which of the following statements correctly describes the use of the any route method in Laravel?**
+```php
+A) The any method is used to define a route that responds to all HTTP request methods.
+B) The any method only allows GET and POST requests.
+C) The any method is used for defining API routes exclusively.
+D) The any method automatically applies middleware authentication.
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+**86. How can you pass data to a view from a controller in Laravel?**
+```php
+A) Use the compact() function to pass an array of data to the view.
+B) Use the with() method to attach variables to the view.
+C) Use the view() helper function and pass data as an associative array.
+D) All of the above.
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: D
+</ul>
+</details>
+
+**87. What is an accessor in Laravel?**
+```php
+A) An accessor in Laravel is a method used to modify an attribute before saving it to the database.
+B) An accessor in Laravel is a method used to transform an Eloquent attribute when retrieving it from the database.
+C) An accessor in Laravel is a built-in function to access private properties of a model.
+D) An accessor in Laravel is a middleware used for authentication.
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
 
 
 
