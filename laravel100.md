@@ -1395,7 +1395,141 @@ Answer: B
 </ul>
 </details>
 
+**88. Which primary design pattern does Laravel follow?**
+```php
+A) Singleton Pattern
+B) Observer Pattern 
+C) Model-View-Controller (MVC) Pattern
+D) Strategy Pattern
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**89. Does Laravel follow the object-oriented approach?**
+```php
+A) Yes
+B) No
+C) Depand on developer
+D) A and C
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+**90. All dependencies are specified in the ____ file, which is located in the source folder??**
+```php
+A) laravel.json
+B) composer.json
+C) package.json
+D) config.json
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
 
 
+**91. What is the primary purpose of using views in Laravel?**
+```php
+A) To store business logic
+B) To handle database queries
+C) To separate the presentation layer from business logic
+D) To define routes
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**91. What is the primary purpose of using views in Laravel?**
+```php
+A) To store business logic
+B) To handle database queries
+C) To separate the presentation layer from business logic
+D) To define routes
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+**92. Rest API method name?**
+```php
+A) GET
+B) POST
+C) PUT and Patch
+D) All of above
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: D
+</ul>
+</details>
+
+
+**93. What is database seeding in Laravel?**
+```php
+A) The process of creating database migrations
+B) The process of populating the database with sample data
+C) The process of encrypting database records
+D) The process of deleting database records
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+**94. What is database seeding in Laravel?**
+```php
+A) The process of creating database migrations
+B) The process of populating the database with sample data
+C) The process of encrypting database records
+D) The process of deleting database records
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+
+**95. Can you use raw PHP tags (<?php ... ?>) inside a Laravel Blade template?**
+```php
+A) Yes, but it is discouraged
+B) No, it is not allowed
+C) Yes, and it is the recommended way
+D) Only inside JavaScript blocks
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
 
 
