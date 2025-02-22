@@ -1533,3 +1533,56 @@ Answer: A
 </details>
 
 
+**96. What is the purpose of a controller in Laravel?**
+```php
+A) To manage database migrations
+B) To handle HTTP requests and responses
+C) To define application routes
+D) To create Blade templates
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+
+**97. What is the primary purpose of sessions in Laravel?**
+```php
+A) Storing temporary data across multiple requests
+B) Managing database connections
+C) Handling Blade templates
+D) Encrypting user passwords
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: A
+</ul>
+</details>
+
+
+
+**98. What is the purpose of a flash session in Laravel?**
+```php
+A) To store data permanently in the session
+B) To store data temporarily for the next request only
+C) To store data for multiple requests
+D) To store data in the database
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+
+
+
