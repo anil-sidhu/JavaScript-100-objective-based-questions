@@ -1582,6 +1582,41 @@ Answer: B
 </ul>
 </details>
 
+**99. How many main types of middleware exist in Laravel?**
+```php
+A) 1
+B) 2
+C) 3
+D) 4
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: B
+</ul>
+</details>
+
+
+**100. Which middleware is applied to all HTTP requests in Laravel?**
+```php
+A) Route Middleware
+B) API Middleware
+C) Global Middleware
+D) Web Middleware
+
+```
+<details>
+	<summary><b>View Answer</b></summary>
+<ul>
+Answer: C
+</ul>
+</details>
+
+
+
+
+
 
 
 
