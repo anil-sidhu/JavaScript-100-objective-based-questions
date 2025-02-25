@@ -104,8 +104,8 @@ Answer: B
 
 **7. Which method is used in Eloquent to fetch the first record matching the query?**
 ```php
-A) get()
-B) first()
+A) first()
+B) get()
 C) find()
 D) whereFirst()
 ```
@@ -113,7 +113,7 @@ D) whereFirst()
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: C
+Answer: A
 	
 	$user = User::where('email', 'example@example.com')->first();
 
