@@ -1369,8 +1369,13 @@ console.log(myFunc);
 function myFunc() {
     return "Hello";
 }
-
 ```
+A) undefined
+B) ReferenceError: myFunc is not defined
+C) [Function: myFunc]
+D) TypeError: myFunc is not a function
+
+
 
 <details>
 	<summary><b>View Answer</b></summary><ul>
