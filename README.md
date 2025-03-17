@@ -197,7 +197,7 @@ Answer: a) "number"
 </details>
 
 
-** 14. Output of below statment **
+**14. Output of below statment**
 ```js
 let x=null;
 let y=null;
