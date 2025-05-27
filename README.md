@@ -1,122 +1,122 @@
 # JavaScript-100-objective-based-questions
 
 
-**1. Can we connect JavaScript Directly with Actual Database. can you give reason of it ?**
+**1. CWhat is the primary motivation behind the introduction of React Hooks?**
 ```js
-a) Yes;
-b) No;
-c) Sometime;
-d) Some Database
+a) To replace ReactDOM.render()
+b) To enable state and lifecycle features in functional components
+c) To improve React's server-side rendering capabilities
+d) To enforce stricter type checking
 ```
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: b) No
+Answer: b) To enable state and lifecycle features in functional components
 </ul>
 </details>
 
 
-**2. Which of the following is NOT a JavaScript data type?**
+**2. Which function is used to create a root for a React application in React 18 and later??**
 ```js
-a) String
-b) Boolean
-c) Float
-d) Undefined
+a) ReactDOM.render()
+b) ReactDOM.hydrate()
+c) ReactDOM.createRoot()
+d) ReactDOM.mount()
 ```
 
 <details>
 	<summary><b>View Answer</b></summary>
 <ul>
-Answer: c) Float
+Answer: c) ReactDOM.createRoot()
 </ul>
 </details>
 
 
-**3. Which symbol is used for single-line comments in JavaScript?**
+**3. What is the main benefit of "Automatic Batching" in React 18?**
 ```js
-a) //
-b) /*
-c) #
-d) <!--
+a) It automatically re-renders components after every state update.
+b) It groups multiple state updates into a single re-render for better performance.
+c) It batches API requests for faster data fetching.
+d) It automatically optimizes image loading.
 ```
 
 <details>
 	<summary><b>View Answer</b></summary><ul>
-Answer: a) //
+Answer: b) It groups multiple state updates into a single re-render for better performance.
 </ul>
 </details>
 
 
-** 4. What will typeof null return?**
+** 4.Which of the following describes JSX??**
 ```js
-a) "null"
-b) "object"
-c) "undefined"
-d) "string"
+a) A template language for defining styles.
+b) A runtime environment for JavaScript.
+c) A syntax extension for JavaScript that looks like HTML.
+d) A database query language.
 ```
 <details>
 	<summary><b>View Answer</b></summary><ul>
-Answer: b) "object"
-</ul>
-</details>
-
-
-
-**5. How to make immutable object in JavaScript**
-```js
-a) final var ={name:'Anil'}
-b) const user={name:'Anil'}
-c) var  user={name:'Anil'}; Object.freeze(user);
-c) There is no way to make immutable object
-```
-<details>
-	<summary><b>View Answer</b></summary><ul>
-Answer: c) var  user={name:'Anil'}; Object.freeze(obj);
+Answer: c) A syntax extension for JavaScript that looks like HTML.
 </ul>
 </details>
 
 
 
-**6. Operators & Expressions
-What will 2 + "2" evaluate to? **
+**5. What is the significance of the key prop in React lists?**
 ```js
-a) 4
-b) "22"
-c) NaN
-d) Error
+a) It provides unique styling for each list item.
+b) It helps React identify which items have changed, are added, or removed, for efficient updates.
+c) It dictates the order of elements in the DOM.
+d) It is purely for developer readability and has no functional impact.
 ```
 <details>
 	<summary><b>View Answer</b></summary><ul>
-Answer: b) "22"
-</ul>
-</details>
-
-
-*** 7.Which operator is used for strict equality in JavaScript?***
-```js
-a) ==
-b) !==
-c) =
-d) !=
-```
-<details>
-	<summary><b>View Answer</b></summary><ul>
-Answer: b) !==
+Answer: b) It helps React identify which items have changed, are added, or removed, for efficient updates.
 </ul>
 </details>
 
 
 
-**8. What does !!"false" evaluate to?**
+**6.How do you typically pass data from a parent component to a child component in React? **
 ```js
-a) true
-b) false
-c) undefined
-d) Error
+) Via context only
+b) Via props
+c) Via state in the child component
+d) By directly accessing the parent's DOM
 ```
 <details>
 	<summary><b>View Answer</b></summary><ul>
-Answer: a) true
+Answer: b) Via props
+</ul>
+</details>
+
+
+*** 7.What is the purpose of the StrictMode component in React? ***
+```js
+a) To enforce strict JavaScript syntax.
+b) To enable server-side rendering.
+c) To highlight potential problems and deprecated practices in development mode.
+d) To optimize production build performance.
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer:c) To highlight potential problems and deprecated practices in development mode.
+</ul>
+</details>
+
+
+
+**8. What is the core concept behind React's "reconciliation" process? **
+```js
+a) Manually updating the DOM based on state changes.
+b) Comparing the Virtual DOM with the real DOM to efficiently update the UI.
+c) Fetching data from a server and updating the state.
+d) Bundling JavaScript files for deployment.
+
+```
+<details>
+	<summary><b>View Answer</b></summary><ul>
+Answer: b) Comparing the Virtual DOM with the real DOM to efficiently update the UI.
 </ul>
 </details>
 
