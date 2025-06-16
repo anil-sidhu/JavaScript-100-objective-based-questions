@@ -509,7 +509,7 @@ d) 'apple'
 ```
 <details>
 	<summary><b>View Answer</b></summary><ul>
-Answer: a)  ['apple', 'banana', 'grapes']
+Answer: c) 'apple 'banana grapes'
 </ul>
 </details>
 
